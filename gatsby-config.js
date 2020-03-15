@@ -66,7 +66,7 @@ module.exports = {
         background_color: `#ffffff`,
         theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `assets/platzi-master-icon.png`,
+        icon: `assets/platzimaster-icon.png`,
       },
     },
     `gatsby-plugin-react-helmet`,
