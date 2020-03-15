@@ -1,40 +1,51 @@
 import React from "react"
+import gravatar from '../utils/gravatar';
+import '../styles/templates/blog-post.css';
 import { Link, graphql } from "gatsby"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import { rhythm, scale } from "../utils/typography"
+import { rhythm } from "../utils/typography"
 
 const BlogPostTemplate = ({ data, pageContext, location }) => {
   const post = data.markdownRemark
   const siteTitle = data.site.siteMetadata.title
   const { previous, next } = pageContext
+  console.log(post.frontmatter)
+
+  const { title, date, description, author, email, platziUser } = post.frontmatter;
 
   return (
     <Layout location={location} title={siteTitle}>
       <SEO
-        title={post.frontmatter.title}
-        description={post.frontmatter.description || post.excerpt}
+        title={title}
+        description={description || post.excerpt}
       />
       <article>
         <header>
-          <h1
+          <h2
             style={{
               marginTop: rhythm(1),
-              marginBottom: 0,
+              marginBottom: 8,
             }}
           >
-            {post.frontmatter.title}
-          </h1>
-          <p
-            style={{
-              ...scale(-1 / 5),
-              display: `block`,
-              marginBottom: rhythm(1),
-            }}
-          >
-            {post.frontmatter.date}
-          </p>
+            {title}
+          </h2>
+          <div className="blogpost__info">
+            <div className="blogpost__author">
+              <img src={gravatar(email)} alt={author} />
+              <h2>
+                <a href={`https://platzi.com/@${platziUser}`} target="_blank" rel="noopener noreferrer">
+                  {author}
+                </a>
+              </h2>
+            </div>
+            <div className="blogpost__date">
+              <p>
+                {date}
+              </p>
+            </div>
+          </div>
         </header>
         <section dangerouslySetInnerHTML={{ __html: post.html }} />
         <hr
@@ -93,6 +104,9 @@ export const pageQuery = graphql`
         title
         date(formatString: "MMMM DD, YYYY")
         description
+        author
+        email
+        platziUser
       }
     }
   }
