@@ -1,0 +1,57 @@
+@import "./colors.scss";
+
+.card-latest-post {
+  margin: 10px;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0px 3px 20px 0px $secondary-color;
+
+  &__title {
+    margin: 3.5rem 0 0 0;
+    font-size: 20px;
+    text-align: center;
+  }
+
+  &__card {
+    display: grid;
+    grid-template-columns: 40% 60%;
+    height: 100%;
+
+    img {
+      border-radius: 10px;
+      margin: 0;
+      object-fit: cover;
+    }
+
+    p {
+      margin: 0;
+    }
+
+    &--img {
+      border-radius: 10px;
+      background: url("/images/platzi-team.png");
+      background-size: cover;
+      background-position: center;
+    }
+
+    &--info {
+      margin: 15px 20px;
+
+      .category {
+        font-style: italic;
+        font-size: 12px;
+      }
+
+      .title-post {
+        font-weight: bold;
+        text-align: justify;
+        font-size: 15px;
+      }
+
+      .description-post {
+        font-size: 12px;
+        text-align: justify;
+      }
+    }
+  }
+}

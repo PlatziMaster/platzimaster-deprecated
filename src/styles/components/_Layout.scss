@@ -9,19 +9,3 @@
   margin: 0 auto;
   padding: 0 4vw;
 }
-
-.menu {
-  display: flex;
-  align-items: center;
-  p {
-    margin: 0;
-  }
-  &__item {
-    margin: 0 20px;
-  }
-  &__item:hover {
-    font-weight: 700;
-    color: $dark-color;
-    border-bottom: 2px solid $primary-color;
-  }
-}

@@ -1,0 +1,18 @@
+@import "./colors";
+
+.hero {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin: 0 0 50px 0;
+
+  &__text {
+    color: $dark-color;
+
+    p {
+      margin: 0;
+    }
+    &--style {
+      font-style: italic;
+    }
+  }
+}
