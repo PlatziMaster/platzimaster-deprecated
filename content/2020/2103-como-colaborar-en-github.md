@@ -3,7 +3,7 @@ title: Cómo colaborar en projectos usando Git y GitHub (parte 1)
 date: "2020-03-21T21:01:00.000Z"
 description: "Cómo colaborar en projectos usando Git and GitHub"
 author: Fernando Torres
-email: contacto@fertorresmx.com
+email: fertorresmx@gmail.com
 platziUser: fertorresmx
 ---
 
@@ -64,8 +64,8 @@ git pull upstream master
 ~~~
 ![Imgur](https://i.imgur.com/uMlv9pM.png)
 
-¡Y listo! Ahora muevete a la rama *develop*, abre el editor de tu preferencia y empieza a modificar archivos y realizar algunos commits.
+¡Y lista la configuración de tu repo en terminal! Ahora muevete a la rama *develop*, abre el editor de tu preferencia y empieza a modificar archivos y realizar algunos commits.
 
 Para este repo en particular, puedes crear un nuevo blogpost añadiendo un archivo .md con las instrucciones que se indican en el README y enviarlo con un Pull Request, lo cual veremos a detalle en la parte 2 (proximamente...) de este blogpost.
 
-¿Tuviste algún problema? ¿Tienes una pregunta o comentario? Búscame como @fertorresmx en Slack (Fer Torres), [Twitter](https://twitter.com/fertorresmx),  [correo](contacto@fertorresmx.com), o en el sitio [fertorresmx.com](http://www.fertorresmx.com) ¡Será un placer ayudarte!
+¿Tuviste algún problema? ¿Tienes una pregunta o comentario? Búscame como @fertorresmx en Slack (Fer Torres), [Twitter](https://twitter.com/fertorresmx),  [correo](mailto:contacto@fertorresmx.com), o en el sitio [fertorresmx.com](http://www.fertorresmx.com) ¡Será un placer ayudarte!
