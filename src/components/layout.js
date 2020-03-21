@@ -14,7 +14,7 @@ const Layout = ({ children }) => {
     >
       <header>
         <a href="/">
-          <img src="https://arepa.s3.amazonaws.com/Platzi-master-logo.png" alt="Platzi Master" />
+          <img className="logo" src="https://arepa.s3.amazonaws.com/Platzi-master-logo.png" alt="Platzi Master" />
         </a>
       </header>
       <main>{children}</main>
