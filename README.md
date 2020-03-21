@@ -14,7 +14,7 @@ npm install
 
 ### Develop
 
-If you can run **Hot reloading** in gatsby, run the next line:
+If you want run **Hot reloading** in gatsby, run the next line:
 
 ```
 npm run develop
