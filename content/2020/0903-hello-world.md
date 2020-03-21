@@ -1,7 +1,7 @@
 ---
 title: Método de depuración del patito de hule
-date: "2020-03-14T22:12:03.284Z"
-description: "Método de depuración del patito de hule"
+date: '2020-03-14T22:12:03.284Z'
+description: 'Método de depuración del patito de hule'
 author: Oscar Barajas
 email: oscar@arepa.dev
 platziUser: gndx
