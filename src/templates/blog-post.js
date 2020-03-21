@@ -1,18 +1,16 @@
-import React from "react"
+import React from "react";
 import gravatar from '../utils/gravatar';
 import '../styles/templates/blog-post.css';
-import { Link, graphql } from "gatsby"
+import { Link, graphql } from "gatsby";
 
-import Layout from "../components/layout"
-import SEO from "../components/seo"
-import { rhythm } from "../utils/typography"
+import Layout from "../components/layout";
+import SEO from "../components/seo";
+import { rhythm } from "../utils/typography";
 
 const BlogPostTemplate = ({ data, pageContext, location }) => {
-  const post = data.markdownRemark
-  const siteTitle = data.site.siteMetadata.title
-  const { previous, next } = pageContext
-  console.log(post.frontmatter)
-
+  const post = data.markdownRemark;
+  const siteTitle = data.site.siteMetadata.title;
+  const { previous, next } = pageContext;
   const { title, date, description, author, email, platziUser } = post.frontmatter;
 
   return (
@@ -84,10 +82,10 @@ const BlogPostTemplate = ({ data, pageContext, location }) => {
         </ul>
       </nav>
     </Layout>
-  )
-}
+  );
+};
 
-export default BlogPostTemplate
+export default BlogPostTemplate;
 
 export const pageQuery = graphql`
   query BlogPostBySlug($slug: String!) {
@@ -110,4 +108,4 @@ export const pageQuery = graphql`
       }
     }
   }
-`
+`;
