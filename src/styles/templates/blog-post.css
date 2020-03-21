@@ -1,29 +1,38 @@
+.blogpost__body {
+  background-color: #fff;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+}
+
 .blogpost__info {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
+
 .blogpost__author {
   display: flex;
   align-items: center;
   margin: 0 0 1em 0;
 }
+
 .blogpost__author img {
   width: 32px;
   height: 32px;
   border-radius: 50%;
   margin: 0;
-  
 }
+
 .blogpost__author h2 {
   padding: 0;
   font-size: 16px;
   margin: 0 0 0 .5em
 }
+
 .blogpost__author a {
   text-decoration: none;
   box-shadow: none;
 }
+
 .blogpost__date p {
   font-size: 12px;
   margin: 0;

@@ -16,7 +16,7 @@ const BlogPostTemplate = ({ data, pageContext, location }) => {
   const { title, date, description, author, email, platziUser } = post.frontmatter;
 
   return (
-    <Layout location={location} title={siteTitle}>
+    <Layout className="blogpost__body" location={location} title={siteTitle}>
       <SEO
         title={title}
         description={description || post.excerpt}
@@ -25,7 +25,7 @@ const BlogPostTemplate = ({ data, pageContext, location }) => {
         <header>
           <h2
             style={{
-              marginTop: rhythm(1),
+              marginTop: rhythm(1 / 4),
               marginBottom: 8,
             }}
           >

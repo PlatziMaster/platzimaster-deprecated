@@ -10,16 +10,16 @@ const BlogIndex = ({ data, location }) => {
   const posts = data.allMarkdownRemark.edges
 
   return (
-    <Layout location={location} title={siteTitle}>
+    <Layout className="content" location={location} title={siteTitle}>
       <SEO title="All posts" />
       {posts.map(({ node }) => {
         const title = node.frontmatter.title || node.fields.slug
         return (
-          <article key={node.fields.slug}>
+          <article className="content__post" key={node.fields.slug}>
             <header>
               <h3
                 style={{
-                  marginTop: rhythm(1),
+                  marginTop: rhythm(1 / 2),
                   marginBottom: rhythm(1 / 4),
                 }}
               >
@@ -27,7 +27,7 @@ const BlogIndex = ({ data, location }) => {
                   {title}
                 </Link>
               </h3>
-              <small>{node.frontmatter.author} - {node.frontmatter.date}</small>
+              <small className="content__post__metadata">{node.frontmatter.author} - {node.frontmatter.date}</small>
             </header>
             <section>
               <p
