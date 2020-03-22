@@ -15,7 +15,7 @@ Mi nombre es Arantxa, tengo 28 años y hace más de 3 años que no programo prof
 
 Es muy probable que en el futuro mi área sea reemplazada por bots y sistemas automáticos; mis posibilidades son limitadas, o intento ponerme al corriente con el ecosistema tecnológico actual y busco ser quien encabece el movimiento, o dejo que un bot me quite mi trabajo, así de simple.
 
-Hace poco más de un año tomé la decisión de continuar con mi carrera para buscar mejores oportunidades. Comencé estudiando por mí cuenta con mi plan Expert y en la Platzi Conf 2019, llegó la oportunidad que estaba buscando: la Escuela de JavaScript. No lo pensé ni un segundo, entre una charla y otra, hice mi suscripción en línea. Era la oportunidad perfecta para ponerme al día y tener nociones de en qué me estaba metiendo.
+Hace poco más de un año tomé la decisión de continuar con mi carrera para buscar mejores oportunidades. Comencé estudiando por mi cuenta con mi plan Expert y en la Platzi Conf 2019, llegó la oportunidad que estaba buscando: la Escuela de JavaScript. No lo pensé ni un segundo, entre una charla y otra, hice mi suscripción en línea. Era la oportunidad perfecta para ponerme al día y tener nociones de en qué me estaba metiendo.
 
 Después de la EJ, tuve la oportunidad de ingresar al Platzi Master y henos aquí.
 
