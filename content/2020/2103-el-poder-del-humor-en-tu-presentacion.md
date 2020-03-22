@@ -1,7 +1,7 @@
 ---
 title: El poder de las historías y el humor
-date: "2020-03-21T20:40:03.284Z"
-description: "Aprende a que tu audiencia sea cautivada y no se suicide por exceso de PowerPoint"
+date: "2020-03-21T19:40:03.284Z"
+description: "Aprende a cautivar a tu audiencia con humor e identificación"
 author: Yoshua Díaz
 email: yoshua.sdiaz@gmail.com
 platziUser: yoshua_diaz
