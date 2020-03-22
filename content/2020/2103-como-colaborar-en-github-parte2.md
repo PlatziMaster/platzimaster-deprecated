@@ -1,15 +1,14 @@
 ---
 title: Cómo colaborar en projectos usando Git y GitHub (parte 2)
 date: "2020-03-22T06:23:00.000Z"
-description: "Cómo colaborar en projectos usando Git and GitHub, parte 2"
+description: "Continuamos con las instrucciones detalladas para crear pull request."
 author: Fernando Torres
 email: fertorresmx@gmail.com
 platziUser: fertorresmx
 ---
 
-##Parte 2, Cómo colaborar en projectos usando Git y GitHub
 
-Ésta es la segunda parte del post [Cómo colaborar en projectos usando Git y GitHub, parte 1](https://platzimaster.github.io/2020/2103-como-colaborar-en-github/). 
+Ésta es la segunda parte del post [Cómo colaborar en projectos usando Git y GitHub](../2103-como-colaborar-en-github/). 
 Si no has visto esta primera parte, por favor revísala y después regresas a este post y podrás continuar.
 
 En esa primera parte, habíamos dejado lista la terminal y la configuración de nuestros repositorios **ORIGIN** y **UPSTREAM**; ésto lo podemos comprobar con el siguiente comando
@@ -88,5 +87,7 @@ Aquí podrás agregar comentarios, tus datos, o cualquier información important
 Después de completar la información y todo es correcto, presiona el botón verde **Create pull request**
 
 ¡Y listo! Haz enviado un **Pull Request** y colaborado en otro projecto. El dueño del repositorio original lo revisará y puede aceptarlo o rechazarlo y seguramente te incuirá algunos comentarios.
+
+----------
 
 Espero toda esta información te sea de mucha utilidad y no dudes en contactarme para cualquier duda; búscame como **@fertorresmx** en Slack (Fer Torres), [Twitter](https://twitter.com/fertorresmx),  [correo](mailto:contacto@fertorresmx.com), o en el sitio [fertorresmx.com](http://www.fertorresmx.com) y **¡nunca pares de aprender!**
