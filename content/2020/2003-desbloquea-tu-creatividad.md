@@ -88,7 +88,7 @@ A la semana revisa esos apuntes. Algunos no servirán, pero uno o la combinació
 ### Juega
 Uno de los integrantes de los Monty Python, John Cleese en una charla magistral observó que las mentes más creativas que conoció eran diferentes a los demás en el sentido en que se permitían jugar con las ideas, explorarlas, combinarlas, separarlas, cambiarlas de contexto y ver qué sucede sin importar el resultado.
 
-Por ejemplo: ¿Qué tal si el anuario (chismógrafó en México) fuera digital? Eso originó Facebook, ¿Qué tal si no tuvieras preocupación por devolver tu VHS o DVD´s rentados y ver lo que quisieras en tu casa? Así nació Netflix.
+Por ejemplo: ¿Qué tal si el anuario (chismógrafo en México) fuera digital? Eso originó Facebook, ¿Qué tal si no tuvieras preocupación por devolver tu VHS o DVD´s rentados y ver lo que quisieras en tu casa? Así nació Netflix.
 
 Preguntate: ¿Qué tal si...
 
