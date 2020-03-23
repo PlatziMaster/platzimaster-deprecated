@@ -57,6 +57,6 @@
     "start": "npm run develop",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
-    "newpost": "bash ./src/utils/newpost.sh"
+    "newpost": "node ./bin/newpost.js"
   }
 }
