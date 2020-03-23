@@ -2,7 +2,7 @@ read -p 'Title: ' title
 read -p 'Description: ' description
 read -p 'Platzi user: ' platziUser
 
-file_name_date=$(date --utc +%d%m)
+file_name_date=$(date --utc +%m%d)
 file_name_title=$(echo ${title// /-} | tr '[:upper:]' '[:lower:]')
 file_name=$(echo "$file_name_date-$file_name_title.md")
 folder_year=$(date +%Y)
@@ -14,7 +14,7 @@ fi
 
 touch $PWD/content/$folder_year/$file_name
 
-created_date=$(echo $(date --utc +%FT%T.%3NZ))
+created_date=$(date -u +"%Y-%m-%dT%H:%M:%SZ")
 author=$(git config --get user.name)
 email=$(git config --get user.email)
 
