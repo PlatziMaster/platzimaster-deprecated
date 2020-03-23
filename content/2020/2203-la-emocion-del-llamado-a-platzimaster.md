@@ -1,6 +1,6 @@
 ---
 title: La emoción del llamado a Platzi Master
-date: '2020-22-14T22:14:22.284Z'
+date: '2020-03-22T02:59:51.935Z'
 description: 'El cosquilleo al formar parte de Platzi Master'
 author: Ernesto Lázaro
 email: ernestolazaro84@gmail.com
