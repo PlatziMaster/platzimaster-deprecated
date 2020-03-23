@@ -23,7 +23,6 @@ rl.question('Title: ', answer1 => {
 
 
 rl.on('close', () => {
-  // console.log(`${postData.title} ${postData.description} ${postData.platziUser}`);
   const now = new Date();
   const regexDigitsInDate = /([0-9]{2})/g;
   const DigitsInDate = now.toISOString().match(regexDigitsInDate);
@@ -40,16 +39,12 @@ rl.on('close', () => {
     postData['email'] = '';
   }
 
-  // postData['author'] = postData['author'].replace('/n','');
-  // postData['email'] = toString postData['email'].replace('/n','');
-
   try {
     fs.statSync(`content/${DigitsInDate[0]}${DigitsInDate[1]}`);
   } catch (err) {
     fs.mkdirSync(`content/${DigitsInDate[0]}${DigitsInDate[1]}`);
   }
 
-  
   try {
     fs.statSync(`content/${DigitsInDate[0]}${DigitsInDate[1]}/${postData.fileName}`) 
     console.error('Error!!: The post has already been created');
