@@ -27,6 +27,10 @@ You must "Fork" this project:
 1. Create a file .md in `content/2020` with the slug (short URL)
 2. Use the follow convention: day+month-slug = 0903-hello-world.md
 
+OR
+
+`npm run newpost`
+
 ### Feature
 
 You must "Fork" this project, review the problems and create a Pull Request to this repository.
