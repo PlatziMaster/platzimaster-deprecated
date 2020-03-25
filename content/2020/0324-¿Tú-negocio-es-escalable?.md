@@ -1,3 +1,11 @@
+---
+title: '¿Tú negocio es escalable?'
+date: '2020-03-25T02:44:34.746Z'
+description: 'A veces creemos que los grandes productos que usamos día a día son super escalables, pero no siempre es así, aprende en este post'
+author: 'Humberto Lopez,'
+email: 'humbertolopez954@gmail.com,'
+platziUser: 'HumbertoMLL'
+---
 # ¿Tú negocio es escalable?
 
 Últimamente se han puesto de moda palabras como “startups” ó “escalabilidad”, hoy hablaremos un poco sobre escalabilidad, si te suena rara o inventada esa palabra es porque no esta en nuestro diccionario, así es no existe en el diccionario de la RAE, proviene de ‘scalability’ en inglés, y es la capacidad de crecimiento de un modelo basada en generar más ingresos con los recursos disponibles. Ahora te quiero preguntar, dentro del mundo del desarrollo ¿Cuál es la herramienta, producto o servicio, que tu consideras más escalable? Por mi parte yo consideraba a internet demasiado escalable, y que todo dependía de cuántos megas contratados tenías, pero el Covid-19, vino a demostrarnos que esa no es la realidad, deja te cuento porque:
