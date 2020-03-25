@@ -28,3 +28,92 @@
   font-size: 12px;
   margin: 0;
 }
+
+.blogpost__share {  
+  position: relative;
+  width: 100%;
+  height: 40px;
+  margin: 20px 0;
+}
+
+.blogpost__share button {
+  display: flex;
+  width: 150px;
+  height: 45px;
+  margin: 0;
+  padding: 0;
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid transparent;
+  outline: 0;
+  align-items: center;
+}
+
+.blogpost__share img {
+  width: 45px;
+  height: 45px;
+  margin: 0 10px 0 0;
+  padding: 5px;
+  object-fit: cover;
+}
+
+.blogpost__share p {
+  margin: 0;
+  font-size: 18px;
+}
+
+.blogpost__share button:hover {
+  cursor: pointer;
+  border-bottom: 1px solid rgb(43, 133, 101);
+}
+
+.blogpost__share button:hover p {
+  color: rgb(43, 133, 101);
+}
+
+.blogpost__share-modal {
+  position: absolute;
+  display: flex;
+  width: 160px;
+  height: 40px;
+  padding: 5px;
+  border-radius: 8px;
+  background-color: rgb(51, 145, 112);
+  align-items: center;
+  justify-content: space-between;
+  top: -47px;
+  left: 10px;
+  z-index: 999;
+}
+
+.blogpost__share-modal:hover {
+  cursor: default;
+}
+
+.blogpost__share-modal a {
+  width: 32px;
+  height: 32px;
+}
+
+.blogpost__share-modal a:hover {
+  cursor: pointer;
+}
+
+.blogpost__share-modal img {
+  width: 32px;
+  height: 32px;
+  object-fit: cover;
+  margin: 0;
+  padding: 0;
+}
+
+.blogpost__share-modalsquare {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background-color: rgb(51, 145, 112);
+  transform: rotateZ(45deg);
+  z-index: 99;
+  top: -17px;
+  left: 80px;
+}
