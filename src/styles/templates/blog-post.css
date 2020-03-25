@@ -95,9 +95,6 @@
   height: 32px;
 }
 
-.blogpost__share-modal a:hover {
-  cursor: pointer;
-}
 
 .blogpost__share-modal img {
   width: 32px;
@@ -105,6 +102,10 @@
   object-fit: cover;
   margin: 0;
   padding: 0;
+}
+
+.blogpost__share-modal img:hover {
+  cursor: pointer;
 }
 
 .blogpost__share-modalsquare {

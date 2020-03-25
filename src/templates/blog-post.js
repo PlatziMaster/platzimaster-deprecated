@@ -102,7 +102,8 @@ const BlogPostTemplate = ({ data, pageContext, location }) => {
               >
                 <img
                   src={twitterIcon}
-                  alt="Twitter"
+                  alt="Share for Twitter"
+                  onClick={() => setModal(!modal)}
                 />
               </a>
               <a
@@ -112,13 +113,14 @@ const BlogPostTemplate = ({ data, pageContext, location }) => {
               >
                 <img
                   src={facebookIcon}
-                  alt="Facebook"
+                  alt="Share for Facebook"
+                  onClick={() => setModal(!modal)}
                 />
               </a>
               <img
                 src={copylinkIcon}
                 alt="Copy Link"
-                onClick={copyLink}
+                onClick={() => { copyLink(); setModal(!modal); }}
               />
             </div>
             <span className="blogpost__share-modalsquare"></span>
