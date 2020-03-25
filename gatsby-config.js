@@ -60,14 +60,26 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Gatsby Starter Blog`,
-        short_name: `GatsbyJS`,
+        name: `Platzi Master Blog`,
+        short_name: `Blog`,
+        description: 'Blog posts by Platzi Master students',
         start_url: `/`,
-        background_color: `#ffffff`,
-        theme_color: `#663399`,
-        display: `minimal-ui`,
+        background_color: `#f1f1f1`,
+        theme_color: `#8DA54C`,
+        display: `standalone`,
+        orientation: 'any',
         icon: `assets/platzimaster-icon.png`,
+        cache_busting_mode: 'none'
       },
+    },
+    {
+      resolve: 'gatsby-plugin-offline',
+      options: {
+        precachePages: [`/content/*`],
+        workboxConfig: {
+          globPatterns: ['**/*']
+        }
+      }
     },
     `gatsby-plugin-react-helmet`,
     {
