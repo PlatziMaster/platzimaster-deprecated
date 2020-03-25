@@ -1,47 +1,18 @@
-import React, { useState } from "react";
+import React from "react";
 import gravatar from '../utils/gravatar';
 import '../styles/templates/blog-post.css';
 import { Link, graphql } from "gatsby";
 
 import Layout from "../components/layout";
 import SEO from "../components/seo";
+import ShareButton from "../components/shareButton";
 import { rhythm } from "../utils/typography";
 
-import shareIcon from "../../assets/shareIcon.png";
-import twitterIcon from "../../assets/twitterIcon.svg";
-import facebookIcon from "../../assets/facebookIcon.png";
-import copylinkIcon from "../../assets/copylinkIcon.png";
-
 const BlogPostTemplate = ({ data, pageContext, location }) => {
-  const [modal, setModal] = useState(false);
-
   const post = data.markdownRemark;
   const siteTitle = data.site.siteMetadata.title;
   const { previous, next } = pageContext;
   const { title, date, description, author, email, platziUser } = post.frontmatter;
-  const url_post = location.href;
-
-  const handleShare = () => {
-    if (navigator.share !== undefined) {
-      navigator.share({
-        title: title,
-        text: description,
-        url: url_post
-      })
-        .catch(error => alert('Error al compartir'));
-    } else {
-      setModal(!modal);
-    }
-  };
-
-  const copyLink = () => {
-    url_post.toString();
-    navigator.clipboard.writeText(url_post).then(function () {
-      alert(`Enlace: ${url_post} Copiado`);
-    }, function () {
-      alert("Error al copiar enlace");
-    });
-  };
 
   return (
     <Layout location={location} title={siteTitle}>
@@ -84,48 +55,11 @@ const BlogPostTemplate = ({ data, pageContext, location }) => {
         <footer>
         </footer>
       </article>
-      <div className="blogpost__share">
-        <button onClick={handleShare}>
-          <img src={shareIcon} alt="Share Icon" />
-          <p>Compartir</p>
-        </button>
-        {
-          modal &&
-          <>
-            <div className="blogpost__share-modal">
-              <a
-                href={`https://twitter.com/intent/tweet?url=${url_post}&text=${title}`}
-                target="_blank"
-                rel="noopener noreferrer"
-                data-show-count="false"
-              >
-                <img
-                  src={twitterIcon}
-                  alt="Share for Twitter"
-                  onClick={() => setModal(!modal)}
-                />
-              </a>
-              <a
-                href={`https://www.facebook.com/sharer/sharer.php?u=${url_post}&display=popup`}
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <img
-                  src={facebookIcon}
-                  alt="Share for Facebook"
-                  onClick={() => setModal(!modal)}
-                />
-              </a>
-              <img
-                src={copylinkIcon}
-                alt="Copy Link"
-                onClick={() => { copyLink(); setModal(!modal); }}
-              />
-            </div>
-            <span className="blogpost__share-modalsquare"></span>
-          </>
-        }
-      </div>
+      <ShareButton
+        title={title}
+        description={description}
+        url={location.href}
+      />
       <nav>
         <ul
           style={{
