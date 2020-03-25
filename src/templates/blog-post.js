@@ -19,7 +19,7 @@ const BlogPostTemplate = ({ data, pageContext, location }) => {
   const siteTitle = data.site.siteMetadata.title;
   const { previous, next } = pageContext;
   const { title, date, description, author, email, platziUser } = post.frontmatter;
-  const url_post = window.location.href;
+  const url_post = location.href;
 
   const handleShare = () => {
     if (navigator.share !== undefined) {
@@ -28,8 +28,7 @@ const BlogPostTemplate = ({ data, pageContext, location }) => {
         text: description,
         url: url_post
       })
-        .then(() => console.log('Compartido'))
-        .catch(error => console.log('Error al compartir', error));
+        .catch(error => alert('Error al compartir'));
     } else {
       setModal(!modal);
     }
