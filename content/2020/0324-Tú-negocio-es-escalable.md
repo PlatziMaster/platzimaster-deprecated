@@ -1,9 +1,9 @@
 ---
-title: '¿Tú negocio es escalable?'
-date: '2020-03-25T02:44:34.746Z'
+title: 'Tú negocio es escalable'
+date: '2020-03-24T02:44:34.746Z'
 description: 'A veces creemos que los grandes productos que usamos día a día son super escalables, pero no siempre es así, aprende en este post'
-author: 'Humberto Lopez,'
-email: 'humbertolopez954@gmail.com,'
+author: 'Humberto Lopez'
+email: 'humbertolopez954@gmail.com'
 platziUser: 'HumbertoMLL'
 ---
 # ¿Tú negocio es escalable?

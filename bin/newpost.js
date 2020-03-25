@@ -22,6 +22,7 @@ rl.question('Title: ', answer1 => {
 });
 
 
+
 rl.on('close', () => {
   const now = new Date();
   const regexDigitsInDate = /([0-9]{2})/g;
