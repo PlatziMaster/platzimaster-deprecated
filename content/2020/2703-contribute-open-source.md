@@ -1,5 +1,5 @@
 ---
-title: Cómo colaborar en projectos open source
+title: Cómo colaborar en proyectos open source
 date: '2020-03-19T19:12:03.284Z'
 description: 'Contribuir a proyectos Librerías'
 author: Jefferson Aguilar
