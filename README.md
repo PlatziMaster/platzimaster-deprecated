@@ -3,32 +3,45 @@
 A colaborative Blog for Platzi Master Students
 
 ### DEMO
+
 [https://platzimaster.github.io/](https://platzimaster.github.io)
 
 ### Instalación
+
 ```
 npm install
 ```
 
 ### Develop
+
+If you want run **Hot reloading** in gatsby, run the next line:
+
 ```
-npm run dev
+npm run develop
 ```
 
 ### Blogpost
-You must "Fork" this project:
 
-1. Create a file .md in `content/2020` with the slug (short URL)
-2. Use the follow convention: day+month-slug = 0903-hello-world.md
+You must "Fork" this project.
+
+`npm run newpost`
+
+This script requests the title, description and platzi user, with which it creates a new post in the folder of the current year. If it already exists the file throws an error.
+
+It reads your git name and your email and complete the post template.
 
 ### Feature
+
 You must "Fork" this project, review the problems and create a Pull Request to this repository.
 
-### Enhacement
+### Enhancement
+
 You must "Fork" this project, review the problems and create a Pull Request to this repository.
 
 ### BugFix
+
 You must "Fork" this project, review the problems and create a Pull Request to this repository.
 
 ### Licencia
+
 platzimaster.github.io : [MIT](https://opensource.org/licenses/MIT).
