@@ -1,0 +1,17 @@
+.search {
+    border: none;
+    border-radius: 5px;
+    font-size: 12px;
+    font-weight: 300;
+    outline: none;
+    padding: 8px 0px 8px 16px;
+    width: 100%;
+    background-color: #eaeaea;
+    font-weight: 500;
+    padding: 8px 16px;
+    margin-top: 2em;
+}
+
+.search, .search::placeholder {
+    color: #444444;
+}

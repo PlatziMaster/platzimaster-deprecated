@@ -1,18 +1,24 @@
-import React from "react"
+import React, { useState } from "react"
 import { Link, graphql } from "gatsby"
 
 import Layout from "../components/layout"
+import Search from "../components/search"
 import SEO from "../components/seo"
 import { rhythm } from "../utils/typography"
 
 const BlogIndex = ({ data, location }) => {
   const siteTitle = data.site.siteMetadata.title
   const posts = data.allMarkdownRemark.edges
+  const [filteredPosts, setFilteredPosts] = useState(posts)
 
   return (
     <Layout location={location} title={siteTitle}>
       <SEO title="All posts" />
-      {posts.map(({ node }) => {
+      <Search
+        posts={posts}
+        filterHandler={setFilteredPosts}
+      />
+      {filteredPosts.map(({ node }) => {
         const title = node.frontmatter.title || node.fields.slug
         return (
           <article key={node.fields.slug}>
