@@ -17,7 +17,7 @@ const Layout = ({ children }) => {
           <img className="logo" src="https://arepa.s3.amazonaws.com/Platzi-master-logo.png" alt="Platzi Master" />
         </a>
       </header>
-      <main>{children}</main>
+      <main className="layout__main">{children}</main>
       <footer>
         © {new Date().getFullYear()} <a href="https://platzi.com">Platzi Master</a>
       </footer>

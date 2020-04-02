@@ -5,6 +5,10 @@
   height: 64px;
 }
 
+.layout__main {
+  min-height: calc(100vh - 185px);
+}
+
 a {
   text-decoration: none;
   box-shadow: none;
