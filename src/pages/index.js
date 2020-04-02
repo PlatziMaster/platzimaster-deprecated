@@ -2,22 +2,25 @@ import React, { useState } from 'react';
 import { Link, graphql } from 'gatsby';
 
 import Layout from '../components/layout';
-import Search from '../components/search';
 import SEO from '../components/seo';
+import NoPostFound from '../components/no-post-found';
 import { rhythm } from '../utils/typography';
 
 const BlogIndex = ({ data, location }) => {
   const siteTitle = data.site.siteMetadata.title;
   const posts = data.allMarkdownRemark.edges;
   const [filteredPosts, setFilteredPosts] = useState(posts);
+  const noPostsFound = filteredPosts.length === 0;
 
   return (
-    <Layout location={location} title={siteTitle}>
+    <Layout
+      location={location}
+      title={siteTitle}
+      posts={posts}
+      filterHandler={setFilteredPosts}
+    >
       <SEO title='All posts' />
-      <Search
-        posts={posts}
-        filterHandler={setFilteredPosts}
-      />
+      {noPostsFound && <NoPostFound />}
       {filteredPosts.map(({ node }) => {
         const title = node.frontmatter.title || node.fields.slug;
         return (

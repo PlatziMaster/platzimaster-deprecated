@@ -6,7 +6,12 @@
 }
 
 .layout__main {
-  min-height: calc(100vh - 185px);
+  min-height: calc(100vh - 250px);
+}
+
+.layout__header {
+  display: flex;
+  align-items: center;
 }
 
 a {

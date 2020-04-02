@@ -2,13 +2,19 @@
     border: none;
     border-radius: 5px;
     outline: none;
-    width: 100%;
     background-color: #eaeaea;
     font-weight: 500;
     padding: 8px 16px;
-    margin-top: 2em;
+    margin-left: 1.5em;
+    width: 70%;
 }
 
 .search, .search::placeholder {
     color: #444444;
+}
+
+@media screen and (max-width: 600px) {
+    .search {
+        margin-left: 0;
+    }
 }
