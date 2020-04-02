@@ -2,25 +2,23 @@ const readline = require('readline');
 const exec = require('child_process').execSync;
 const fs = require('fs');
 
-
 const rl = readline.Interface({
   input: process.stdin,
-  output: process.stdout
+  output: process.stdout,
 });
 
 const postData = {};
 
-rl.question('Title: ', answer1 => {
+rl.question('Title: ', (answer1) => {
   postData['title'] = answer1;
-  rl.question('Description: ', answer2 => {
+  rl.question('Description: ', (answer2) => {
     postData['description'] = answer2;
-    rl.question('Platzi user: ', answer3 => {
+    rl.question('Platzi user: ', (answer3) => {
       postData['platziUser'] = answer3;
       rl.close();
     });
   });
 });
-
 
 rl.on('close', () => {
   const now = new Date();
@@ -46,9 +44,9 @@ rl.on('close', () => {
   }
 
   try {
-    fs.statSync(`content/${DigitsInDate[0]}${DigitsInDate[1]}/${postData.fileName}`) 
+    fs.statSync(`content/${DigitsInDate[0]}${DigitsInDate[1]}/${postData.fileName}`);
     console.error('Error!!: The post has already been created');
-  } catch(err) {
+  } catch (err) {
     fs.writeFileSync(`content/${DigitsInDate[0]}${DigitsInDate[1]}/${postData.fileName}`, `---
 title: '${postData.title}'
 date: '${postData.date}'
