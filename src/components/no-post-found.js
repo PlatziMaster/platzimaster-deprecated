@@ -14,7 +14,7 @@ const NoPostFound = () => {
         Parece que el artículo que buscas no existe.
         {' '}
         <br />
-        ¿Y si escribes uno al respecto? 🤓
+        ¿Y si lo escribes? 🤓
       </p>
     </>
   );
