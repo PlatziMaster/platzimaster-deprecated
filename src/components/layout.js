@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'gatsby';
 import Search from './search';
 import { rhythm } from '../utils/typography';
 import '../styles/components/layout.css';
@@ -15,13 +16,13 @@ const Layout = ({ children, location, posts, filterHandler }) => {
       }}
     >
       <header className='layout__header'>
-        <a href='/'>
+        <Link to='/'>
           <img
             className='logo'
             src='https://arepa.s3.amazonaws.com/Platzi-master-logo.png'
             alt='Platzi Master'
           />
-        </a>
+        </Link>
         {isHome && (
           <Search
             posts={posts}
