@@ -4,7 +4,7 @@ date: '2020-04-03T20:29:07.299Z'
 description: 'Liderar equipos no es una tarea para nada fácil y requiere tener en cuenta varios puntos para lograr hacerlo bien.'
 author: 'Cohort1 Team Ana'
 email: 'jeffersonaguilar@outlook.com'
-platziUser: '@cohort1-team-ana'
+platziUser: '@jeff-js'
 ---
 
 
