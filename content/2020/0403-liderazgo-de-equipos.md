@@ -7,9 +7,6 @@ email: 'jeffersonaguilar@outlook.com'
 platziUser: '@jeff-js'
 ---
 
-
-  
-
 Liderar equipos no es una tarea para nada fácil y requiere tener en cuenta varios puntos para lograr hacerlo bien. La calificación de un líder depende no sólo de su labor sino de la percepción que ha construido entre su equipo. Estos son algunos puntos que debes tener en cuenta si no sabes cómo ser un verdadero líder y la responsabilidad que esto implica:
 
 - Ser un jefe no es lo mismo que ser un líder, un buen líder reconoce los logros individuales y grupales, ya que esto ayuda a que aumente la motivación de cada integrante y permite que en cada uno crezca la seguridad para hacer grandes cosas. **Guiselle Mejía**.
