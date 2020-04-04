@@ -70,3 +70,11 @@ Aquí podemos ver la importancia del caso base. Si no tuviéramos un caso base c
 ## Reto
 
 Reescribe la función factorial que se presentó aquí, para que imprima en consola el valor obtenido justo antes de retornarlo. En la consola deberás ver que empieza a retornar los valores en el orden que del paso 8 a 11.
+
+## Contacto
+
+Si quieres hablar más sobre este tema contáctame en:
+
+- Slack: @Héctor (hyfi06)
+- Twitter: [@hyfi06](https://twitter.com/hyfi06)
+- Github: [hyfi06](https://github.com/hyfi06)
