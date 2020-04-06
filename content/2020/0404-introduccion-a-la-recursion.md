@@ -2,9 +2,9 @@
 title: 'Introducción a la recursión'
 date: '2020-04-04T05:20:59.030Z'
 description: 'Una intrudución a la recursión. Primera parte - nivel básico. Spoiler alert: Puede contener la solución a un challenge'
-author: 'Héctor Olvera Vital,'
-email: 'hector.olvera@ciencias.unam.mx,'
-platziUser: '@hyfi06'
+author: 'Héctor Olvera Vital'
+email: 'hector.olvera@ciencias.unam.mx'
+platziUser: 'hyfi06'
 ---
 
 *Primera parte - nivel básico*
