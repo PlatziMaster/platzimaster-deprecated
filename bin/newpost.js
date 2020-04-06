@@ -17,7 +17,7 @@ rl.question('Post title: ', answer1 => {
   postData['title'] = answer1;
   rl.question('Short description: ', answer2 => {
     postData['description'] = answer2;
-    rl.question('Your Platzi user: ', answer3 => {
+    rl.question('Your Platzi user: @', answer3 => {
       postData['platziUser'] = answer3;
       finish = true;
       rl.close();
@@ -36,8 +36,8 @@ rl.on('close', () => {
   postData['date'] = now.toISOString();
 
   try {
-    postData['author'] = exec('git config --get user.name').toString().split('\n');
-    postData['email'] = exec('git config --get user.email').toString().split('\n');
+    postData['author'] = exec('git config --get user.name').toString().slice(0,-1);
+    postData['email'] = exec('git config --get user.email').toString().slice(0,-1);
   } catch (err) {
     postData['author'] = '';
     postData['email'] = '';
