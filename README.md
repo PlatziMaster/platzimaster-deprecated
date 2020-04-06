@@ -1,5 +1,3 @@
-[![Build Status](https://travis-ci.org/PlatziMaster/platzimaster.github.io.svg?branch=develop)](https://travis-ci.org/PlatziMaster/platzimaster.github.io)
-
 # Platzi Master
 A colaborative Blog for Platzi Master Students
 

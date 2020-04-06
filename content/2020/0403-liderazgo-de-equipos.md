@@ -4,7 +4,7 @@ date: '2020-04-03T20:29:07.299Z'
 description: 'Liderar equipos no es una tarea para nada fácil y requiere tener en cuenta varios puntos para lograr hacerlo bien.'
 author: 'Cohort1 Team Ana'
 email: 'jeffersonaguilar@outlook.com'
-platziUser: '@jeff-js'
+platziUser: 'jeff-js'
 ---
 
 Liderar equipos no es una tarea para nada fácil y requiere tener en cuenta varios puntos para lograr hacerlo bien. La calificación de un líder depende no sólo de su labor sino de la percepción que ha construido entre su equipo. Estos son algunos puntos que debes tener en cuenta si no sabes cómo ser un verdadero líder y la responsabilidad que esto implica:
@@ -43,6 +43,4 @@ Al momento de tener un proyecto debemos tener en cuenta evaluar a todos los miem
 El feedback es una buena estrategia pero debe saberse usar, buscar el momento adecuado para ello. El líder también debe promover la innovación, los retos y la continua formación que permita empoderar al equipo y su crecimiento profesional. **Jose Manuel Salazar**.
 
 Este post ha sido escrito por el Team Outliers de Cohort 1 en equipo, aprendiendo de todos 💚
-
-![Lider-Jefe](https://www.ucsc.cl/wp-content/uploads/2019/08/lider-vs-jefe.jpg)
 
