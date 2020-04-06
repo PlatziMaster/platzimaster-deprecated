@@ -2,8 +2,8 @@
 title: 'Computer Science vs Software Engineer'
 date: '2020-04-06T14:17:03.831Z'
 description: 'Una opinión personal de lo que hace diferentes las Ciencias de la computación a la Ingeniería de Software, y respondiendo desde mi experiencia hasta que nivel se necesitan las matemáticas para programar. '
-author: 'Humberto Lopez,'
-email: 'humbertolopez954@gmail.com,'
+author: 'Humberto Lopez'
+email: 'humbertolopez954@gmail.com'
 platziUser: 'HumbertoMLL'
 ---
 

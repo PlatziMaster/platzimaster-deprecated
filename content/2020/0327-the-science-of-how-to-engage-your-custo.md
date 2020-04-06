@@ -2,8 +2,8 @@
 title: 'The science of how to engage your customer'
 date: '2020-03-27T21:22:51.510Z'
 description: 'A guide to engage users to your digital product'
-author: 'Andres Alba,'
-email: 'tensinkusum@hotmail.com,'
+author: 'Andres Alba'
+email: 'tensinkusum@hotmail.com'
 platziUser: 'andresalba'
 ---
 
