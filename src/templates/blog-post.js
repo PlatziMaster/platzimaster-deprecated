@@ -7,17 +7,26 @@ import Layout from "../components/layout";
 import SEO from "../components/seo";
 import { rhythm } from "../utils/typography";
 
+const readingTime = (text)=> {
+  const wordsPerMinute = 200;
+  const numOfWords = text.split(/\s/g).length;
+  const minutes = numOfWords / wordsPerMinute;
+  const readTime = Math.ceil(minutes);
+  return `Tiempo de lectura ${readTime} min`;
+}
+
 const BlogPostTemplate = ({ data, pageContext, location }) => {
   const post = data.markdownRemark;
   const siteTitle = data.site.siteMetadata.title;
   const { previous, next } = pageContext;
   const { title, date, description, author, email, platziUser } = post.frontmatter;
+  const timeToRead = readingTime(post.html);
 
   return (
     <Layout location={location} title={siteTitle}>
       <SEO
         title={title}
-        description={description || post.excerpt}
+        description={description + timeToRead || post.excerpt}
       />
       <article>
         <header>
@@ -37,10 +46,11 @@ const BlogPostTemplate = ({ data, pageContext, location }) => {
                   {author}
                 </a>
               </h2>
-            </div>
-            <div className="blogpost__date">
               <p>
                 {date}
+              </p>
+              <p>
+              { timeToRead }
               </p>
             </div>
           </div>
@@ -100,7 +110,7 @@ export const pageQuery = graphql`
       html
       frontmatter {
         title
-        date(formatString: "MMMM DD, YYYY")
+        date (formatString: "DD [de] MMMM, YYYY", locale: "es")
         description
         author
         email
