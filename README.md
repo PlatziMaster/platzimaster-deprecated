@@ -1,5 +1,4 @@
 # Platzi Master
-
 A colaborative Blog for Platzi Master Students
 
 ### DEMO
