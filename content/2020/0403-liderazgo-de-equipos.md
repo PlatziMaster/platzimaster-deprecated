@@ -2,7 +2,7 @@
 title: 'Liderazgo de equipos'
 date: '2020-04-03T20:29:07.299Z'
 description: 'Liderar equipos no es una tarea para nada fácil y requiere tener en cuenta varios puntos para lograr hacerlo bien.'
-author: 'Cohort1 Team Ana'
+author: 'Jefferson Aguilar'
 email: 'jeffersonaguilar@outlook.com'
 platziUser: 'jeff-js'
 ---
