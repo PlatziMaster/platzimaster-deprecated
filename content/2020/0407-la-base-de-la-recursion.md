@@ -13,9 +13,9 @@ Si vienes de alguna carrera afín a las matemáticas e ingeniería, seguramente 
 
 La inducción matemáticas es un método (axioma) para demostrar propiedades de los números naturales. Posiblemente recordarás haber “demostrado” alguna cosa con sucesiones o series. Pero como dije, no va de esto este post. Sólo quiero rescatar los pasos que usa la inducción.
 
-Primero vemos que la propiedad se cumple para `0` (ó `1`, ó otro número, depende de lo que convenga).
-Suponemos que se cumple para un `n`.
-Demostramos que se cumple para `n + 1`.
+1. Primero vemos que la propiedad se cumple para `0` (ó `1`, ó otro número, depende de lo que convenga).
+2. Suponemos que se cumple para un `n`.
+3. Demostramos que se cumple para `n + 1`.
 
 No importa si no te hace sentido eso, si quieres saber más puedes contactarme en los medios que aparecen al final de este post.
 
@@ -35,8 +35,8 @@ Vamos a definir las tablas de la suma de manera recursiva. Fácil, ¿no? Sólo r
 
 La tabla de sumar de k se define como sigue:
 
-`k + (0) = k`
-`k + (s(n)) = s(k + (n))`
+- `k + (0) = k`
+- `k + (s(n)) = s(k + (n))`
 
 ¿Cuánto es `2 + 2`? ¡Pues vamos a programarlo!
 
@@ -65,14 +65,15 @@ def sumar2(num):
 Si llamas la función `sumar2(2)` verás que te sale `16`. ¿Por qué? ¿No te salió `16`? ¿Te salio `4`? A mi también me salió `4`, pero quería asegurarme que lo hicieras.
 
 Veamos que hace la computadora:
-Llamamos `sumar2(2)`.
-Como `2 != 0`, regresamos `sumar2(1) + 1`. Pero para resolver la operación necesitamos saber cuanto vale `sumar2(1)`.
-Llamamos `sumar2(1)`.
-Como `1 != 0`, regresamos `sumar(0) + 1`. Pero para resolver la operación necesitamos saber cuánto vale `sumar2(0)`.
-Llamamos `sumar2(0)`.
-Como `0 = 0` regresamos `2`.
-En el paso 4 ya podemos opera `sumar2(0) + 1 = 2 + 1 = 3`, regresamos `3`.
-En el paso 2 ya podemos operar `sumar2(1) +1 = 3 + 1 = 4`, y regresamos `4`.
+
+1. Llamamos `sumar2(2)`.
+2. Como `2 != 0`, regresamos `sumar2(1) + 1`. Pero para resolver la operación necesitamos saber cuanto vale `sumar2(1)`.
+3. Llamamos `sumar2(1)`.
+4. Como `1 != 0`, regresamos `sumar(0) + 1`. Pero para resolver la operación necesitamos saber cuánto vale `sumar2(0)`.
+5. Llamamos `sumar2(0)`.
+6. Como `0 = 0` regresamos `2`.
+7. En el paso 4 ya podemos opera `sumar2(0) + 1 = 2 + 1 = 3`, regresamos `3`.
+8. En el paso 2 ya podemos operar `sumar2(1) +1 = 3 + 1 = 4`, y regresamos `4`.
 
 ![nuclear head](https://images.emojiterra.com/google/android-pie/512px/1f92f.png)
 
@@ -82,8 +83,8 @@ Vamos a ver otros ejemplos. Pero si entendiste este, los demás son similares.
 
 Ya que sabemos sumar, vamos a multiplicar de manera recursiva.
 
-`k * (0) = 0`
-`k * (s(n)) = k * n + k`
+- `k * (0) = 0`
+- `k * (s(n)) = k * n + k`
 
 ¿Cuánto es `7 * 6`? Pues si no lo recuerdas seguro sabes cuanto es `7 * 5` y sólo sumas `7` más. ¿No aplicaste este truco toda vida? Eso es recursividad. Lo has sabido hacer, los has entendido toda la vida, pero no sabías que se llamaba así.
 
@@ -105,8 +106,8 @@ Como ejercicio repite los pasos que hace la computadora, como hice con la suma, 
 
 Ya sabemos multiplicar, ¿y si ahora exponenciamos?
 
-`k ^ 0 = 1`
-`k ^ s(n) = (k ^ n) * k`
+- `k ^ 0 = 1`
+- `k ^ s(n) = (k ^ n) * k`
 
 Como ejercicio programa la función `exp2` y calcula `exp2(10)`. Mándame un [tweet](https://twitter.com/hyfi06) con tu código y el resultado, lo estaré esperando ;)
 
