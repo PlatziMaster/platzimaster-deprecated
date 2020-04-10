@@ -2,18 +2,11 @@ import React from "react";
 import gravatar from '../utils/gravatar';
 import '../styles/templates/blog-post.css';
 import { Link, graphql } from "gatsby";
+import readingTime from "../utils/readingTime";
 
 import Layout from "../components/layout";
 import SEO from "../components/seo";
 import { rhythm } from "../utils/typography";
-
-const readingTime = (text)=> {
-  const wordsPerMinute = 200;
-  const numOfWords = text.split(/\s/g).length;
-  const minutes = numOfWords / wordsPerMinute;
-  const readTime = Math.ceil(minutes);
-  return `Tiempo de lectura ${readTime} min`;
-}
 
 const BlogPostTemplate = ({ data, pageContext, location }) => {
   const post = data.markdownRemark;
@@ -26,7 +19,7 @@ const BlogPostTemplate = ({ data, pageContext, location }) => {
     <Layout location={location} title={siteTitle}>
       <SEO
         title={title}
-        description={description + timeToRead || post.excerpt}
+        description={description || post.excerpt}
       />
       <article>
         <header>
