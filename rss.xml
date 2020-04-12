@@ -1,4 +1,67 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Platzi Master]]></title><description><![CDATA[Conocimiento colectivo.]]></description><link>https://platzimaster.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Thu, 09 Apr 2020 19:00:12 GMT</lastBuildDate><item><title><![CDATA[La base de la Recursión]]></title><description><![CDATA[Segunda parte - nivel intermedio Si vienes de alguna carrera afín a las matemáticas e ingeniería, seguramente habrás oído hablar de la…]]></description><link>https://platzimaster.github.io/2020/0407-la-base-de-la-recursion/</link><guid isPermaLink="false">https://platzimaster.github.io/2020/0407-la-base-de-la-recursion/</guid><pubDate>Tue, 07 Apr 2020 00:56:44 GMT</pubDate><content:encoded>&lt;p&gt;&lt;em&gt;Segunda parte - nivel intermedio&lt;/em&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Platzi Master]]></title><description><![CDATA[Conocimiento colectivo.]]></description><link>https://platzimaster.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Sun, 12 Apr 2020 01:11:47 GMT</lastBuildDate><item><title><![CDATA[Github: Tips, tricks y hacks]]></title><description><![CDATA[Github: Tips, tricks y hacks Hoy les traigo un post muy bueno donde van a poder sacarle el máximo provecho a github, creo todos ustedes…]]></description><link>https://platzimaster.github.io/2020/0411-Github-tips-tricks-hacks/</link><guid isPermaLink="false">https://platzimaster.github.io/2020/0411-Github-tips-tricks-hacks/</guid><pubDate>Sat, 11 Apr 2020 20:39:44 GMT</pubDate><content:encoded>&lt;h1&gt;Github: Tips, tricks y hacks&lt;/h1&gt;
+&lt;p&gt;Hoy les traigo un post muy bueno donde van a poder sacarle el máximo provecho a github, creo todos ustedes igual que yo, pasamos la mayoría del tiempo también en github. Quiero compartirles algunos trucos de mis favoritos y espero que también les ayuden.&lt;/p&gt;
+&lt;h3&gt;Fuzzy file finder 🔎&lt;/h3&gt;
+&lt;p&gt;Una de las cosas que descubrí fue &lt;strong&gt;&lt;em&gt;fuzzy file finder&lt;/em&gt;&lt;/strong&gt;. Presionando &lt;kbd&gt;t&lt;/kbd&gt; en cualquier repositorio tendremos acceso y podemos empezar a escribir el nombre del archivo que tu quieres buscar. Usualmente lo hago cuando busco las configuraciones de algunos de los proyectos.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://i.imgur.com/jjXmvg3.gif&quot;&gt;&lt;/p&gt;
+&lt;h3&gt;Explorar archivos y directorios fácilmente&lt;/h3&gt;
+&lt;p&gt;Hoy les traigo una excelente extensión que me ha gustado mucho, una de esas extensiones fue mostrada por uno de nuestros compañeros &lt;a href=&quot;https://twitter.com/WilsonRomeroC&quot;&gt;wilson romero&lt;/a&gt; y se llamada &lt;a href=&quot;https://github.com/ovity/octotree&quot;&gt;Octotree&lt;/a&gt;. Te ayudará a navegar en la estructura de tus archivos y folders que todos estamos familiarizados de árbol.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://i.imgur.com/5DCTr6O.gif&quot;&gt;&lt;/p&gt;
+&lt;h3&gt;Notificaciones&lt;/h3&gt;
+&lt;p&gt;Esta &lt;a href=&quot;https://github.com/sindresorhus/notifier-for-github&quot;&gt;extension&lt;/a&gt; nos permite mantenernos actualizados de las notificaciones que tenemos dentro del sistema de github, es discreto el icono dentro de tu toolbar y puedes habilidar las notifications si tu quieres.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://i.imgur.com/kC7FECL.gif&quot;&gt;&lt;/p&gt;
+&lt;h3&gt;Hacer @menciones 📝&lt;/h3&gt;
+&lt;p&gt;Una extensión que nos permitirá resaltar las menciones que nos han hecho dentro del sistema, es muy útil cuando queremos saber dónde estamos realmente “mencionados”. El nombre de la extension es &lt;a href=&quot;https://github.com/benbalter/github-mention-highlighter&quot;&gt;Mention Highlighter&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://i.imgur.com/SnSErlL.gif&quot;&gt;&lt;/p&gt;
+&lt;h3&gt;Consejos de Markdown&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.github.com/gfm/&quot;&gt;GitHub Flavored Markdown&lt;/a&gt; parece la biblia del markdown contiene todo lo que necesitas saber para hacer lo que quieras y seguir explotando markdown.&lt;/p&gt;
+&lt;h4&gt;Keyboard tags&lt;/h4&gt;
+&lt;p&gt;Tu puedes usar el tag &lt;code class=&quot;language-text&quot;&gt;&amp;lt;kbd&amp;gt;&lt;/code&gt; el tag que puede aparecer como si fuera un botón. Es perfecto paras documentar cosas que tienen que ver con shortcuts del teclado en tus READMEs/wikis.&lt;/p&gt;
+&lt;p&gt;Presionar &lt;kbd&gt;W&lt;/kbd&gt; para subir, y &lt;kbd&gt;A&lt;/kbd&gt; para ir abajo.
+Puedes usar &lt;kbd&gt;ESC&lt;/kbd&gt; para salir 🚀.&lt;/p&gt;
+&lt;h4&gt;Visualización de códigos hexadecimales&lt;/h4&gt;
+&lt;p&gt;Puedes usar colores hexadecimales con los backticks para poder renderizar el color. Simplemente escoges el color del hexadecimal y con los backticks poner el hexadecimal:&lt;/p&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;`#7AC96F`&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://i.imgur.com/H2JJW7n.gif&quot;&gt;&lt;/p&gt;
+&lt;h4&gt;Agregando resultados largos&lt;/h4&gt;
+&lt;p&gt;Cuando lo vi no podía creer todas las capacidades que nos ofrece github, una vez mas podemos encontrar este util tip para agregar registros largos de resultados o errores detallados, y hacer un summary. Para esto es muy importante los tags &lt;code class=&quot;language-text&quot;&gt;&amp;lt;details&amp;gt;&lt;/code&gt; y &lt;code class=&quot;language-text&quot;&gt;&amp;lt;summary&amp;gt;&lt;/code&gt;&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;Listado de problemas
+&amp;lt;details&amp;gt;
+&amp;lt;summary&amp;gt;Click here to see terminal history + debug info&amp;lt;/summary&amp;gt;
+&amp;lt;pre&amp;gt;
+488 cd /opt/LLL/controller/laser/
+489 vi LLLSDLaserControl.c
+490 make
+491 make install
+492 ./sanity_check
+493 ./configure -o test.cfg
+494 vi test.cfg
+495 vi ~/last_will_and_testament.txt
+496 cat /proc/meminfo
+497 ps -a -x -u
+498 kill -9 2207
+499 kill 2208
+500 ps -a -x -u
+501 touch /opt/LLL/run/ok
+502 LLLSDLaserControl -ok1&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;&lt;img src=&quot;https://i.imgur.com/hUdJWWL.gif&quot;&gt;&lt;/p&gt;
+&lt;h3&gt;Hacking Topics 🔎&lt;/h3&gt;
+&lt;p&gt;El último mega pro tip que puedo decirles es que si sus proyectos ya están dentro de github, necesitan empezar hacer esto. Hay gente de todo el mundo que se dedica a estar buscando proyectos, lo hacen simplemente buscando por topics o tags como se logra esto. O incluso la gente de talento. 🧐. Primero algunos ejemplos de como buscar proyectos relaciones a estos temas.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Todos los repositorios tageados con #covid-19 y #visualization:
+&lt;a href=&quot;https://github.com/topics/covid-19?q=visualization&quot;&gt;https://github.com/topics/covid-19?q=visualization&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Todos los repositorios tageados con #chrome-extension y #github:
+&lt;a href=&quot;https://github.com/topics/chrome-extension?q=github&quot;&gt;https://github.com/topics/chrome-extension?q=github&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Todos los repositorios tageados con #unity y #shader:
+&lt;a href=&quot;https://github.com/topics/unity?q=shader&quot;&gt;https://github.com/topics/unity?q=shader&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Todos los repositorios tageados con #minecraft y #mod:
+&lt;a href=&quot;https://github.com/topics/minecraft?q=mod&quot;&gt;https://github.com/topics/minecraft?q=mod&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Cómo se logra esto:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Simplemente escribiendo despues de &lt;code class=&quot;language-text&quot;&gt;https://github.com/topics/&lt;/code&gt; y agregando el tag o topic categorizado y para agregar un segundo topic &lt;code class=&quot;language-text&quot;&gt;?q=[TOPIC]&lt;/code&gt;y así el resultado de la busqueda sera combinado.&lt;/p&gt;
+&lt;h4&gt;Sabes como agregar los topics a tus proyectos o tagearlos? 🤯&lt;/h4&gt;
+&lt;p&gt;&lt;img src=&quot;https://i.imgur.com/V6p7owF.gif&quot;&gt;&lt;/p&gt;
+&lt;h3&gt;No olvides seguirme en mis redes sociales:&lt;/h3&gt;
+&lt;p&gt;Si necesitas ayuda o solo quieres conversar, búscame como &lt;a href=&quot;https://twitter.com/alexinaraujo&quot;&gt;@alexinaraujo&lt;/a&gt; en Twitter o sígueme en &lt;a href=&quot;https://github.com/ealexisaraujo&quot;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[La base de la Recursión]]></title><description><![CDATA[Segunda parte - nivel intermedio Si vienes de alguna carrera afín a las matemáticas e ingeniería, seguramente habrás oído hablar de la…]]></description><link>https://platzimaster.github.io/2020/0407-la-base-de-la-recursion/</link><guid isPermaLink="false">https://platzimaster.github.io/2020/0407-la-base-de-la-recursion/</guid><pubDate>Tue, 07 Apr 2020 00:56:44 GMT</pubDate><content:encoded>&lt;p&gt;&lt;em&gt;Segunda parte - nivel intermedio&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;Si vienes de alguna carrera afín a las matemáticas e ingeniería, seguramente habrás oído hablar de la inducción matemática. ¡Espera, no cierres el post todavía! Ya se que puede traer malos recuerdos, pero, por el momento, no vamos a hacer ninguna inducción matemática.&lt;/p&gt;
 &lt;p&gt;La inducción matemáticas es un método (axioma) para demostrar propiedades de los números naturales. Posiblemente recordarás haber “demostrado” alguna cosa con sucesiones o series. Pero como dije, no va de esto este post. Sólo quiero rescatar los pasos que usa la inducción.&lt;/p&gt;
 &lt;p&gt;Primero vemos que la propiedad se cumple para &lt;code class=&quot;language-text&quot;&gt;0&lt;/code&gt; (ó &lt;code class=&quot;language-text&quot;&gt;1&lt;/code&gt;, ó otro número, depende de lo que convenga).
