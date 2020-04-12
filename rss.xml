@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Platzi Master]]></title><description><![CDATA[Conocimiento colectivo.]]></description><link>https://platzimaster.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Sun, 12 Apr 2020 01:11:47 GMT</lastBuildDate><item><title><![CDATA[Github: Tips, tricks y hacks]]></title><description><![CDATA[Github: Tips, tricks y hacks Hoy les traigo un post muy bueno donde van a poder sacarle el máximo provecho a github, creo todos ustedes…]]></description><link>https://platzimaster.github.io/2020/0411-Github-tips-tricks-hacks/</link><guid isPermaLink="false">https://platzimaster.github.io/2020/0411-Github-tips-tricks-hacks/</guid><pubDate>Sat, 11 Apr 2020 20:39:44 GMT</pubDate><content:encoded>&lt;h1&gt;Github: Tips, tricks y hacks&lt;/h1&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Platzi Master]]></title><description><![CDATA[Conocimiento colectivo.]]></description><link>https://platzimaster.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Sun, 12 Apr 2020 01:12:13 GMT</lastBuildDate><item><title><![CDATA[Github: Tips, tricks y hacks]]></title><description><![CDATA[Github: Tips, tricks y hacks Hoy les traigo un post muy bueno donde van a poder sacarle el máximo provecho a github, creo todos ustedes…]]></description><link>https://platzimaster.github.io/2020/0411-Github-tips-tricks-hacks/</link><guid isPermaLink="false">https://platzimaster.github.io/2020/0411-Github-tips-tricks-hacks/</guid><pubDate>Sat, 11 Apr 2020 20:39:44 GMT</pubDate><content:encoded>&lt;h1&gt;Github: Tips, tricks y hacks&lt;/h1&gt;
 &lt;p&gt;Hoy les traigo un post muy bueno donde van a poder sacarle el máximo provecho a github, creo todos ustedes igual que yo, pasamos la mayoría del tiempo también en github. Quiero compartirles algunos trucos de mis favoritos y espero que también les ayuden.&lt;/p&gt;
 &lt;h3&gt;Fuzzy file finder 🔎&lt;/h3&gt;
 &lt;p&gt;Una de las cosas que descubrí fue &lt;strong&gt;&lt;em&gt;fuzzy file finder&lt;/em&gt;&lt;/strong&gt;. Presionando &lt;kbd&gt;t&lt;/kbd&gt; en cualquier repositorio tendremos acceso y podemos empezar a escribir el nombre del archivo que tu quieres buscar. Usualmente lo hago cuando busco las configuraciones de algunos de los proyectos.&lt;/p&gt;
@@ -61,12 +61,72 @@ Puedes usar &lt;kbd&gt;ESC&lt;/kbd&gt; para salir 🚀.&lt;/p&gt;
 &lt;h4&gt;Sabes como agregar los topics a tus proyectos o tagearlos? 🤯&lt;/h4&gt;
 &lt;p&gt;&lt;img src=&quot;https://i.imgur.com/V6p7owF.gif&quot;&gt;&lt;/p&gt;
 &lt;h3&gt;No olvides seguirme en mis redes sociales:&lt;/h3&gt;
-&lt;p&gt;Si necesitas ayuda o solo quieres conversar, búscame como &lt;a href=&quot;https://twitter.com/alexinaraujo&quot;&gt;@alexinaraujo&lt;/a&gt; en Twitter o sígueme en &lt;a href=&quot;https://github.com/ealexisaraujo&quot;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[La base de la Recursión]]></title><description><![CDATA[Segunda parte - nivel intermedio Si vienes de alguna carrera afín a las matemáticas e ingeniería, seguramente habrás oído hablar de la…]]></description><link>https://platzimaster.github.io/2020/0407-la-base-de-la-recursion/</link><guid isPermaLink="false">https://platzimaster.github.io/2020/0407-la-base-de-la-recursion/</guid><pubDate>Tue, 07 Apr 2020 00:56:44 GMT</pubDate><content:encoded>&lt;p&gt;&lt;em&gt;Segunda parte - nivel intermedio&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Si necesitas ayuda o solo quieres conversar, búscame como &lt;a href=&quot;https://twitter.com/alexinaraujo&quot;&gt;@alexinaraujo&lt;/a&gt; en Twitter o sígueme en &lt;a href=&quot;https://github.com/ealexisaraujo&quot;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Profundicemos en la recursión]]></title><description><![CDATA[Tercera parte - nivel intermedio En el post anterior vimos como sumar, multiplicar y exponenciar de forma recursiva, vamos a seguir con más…]]></description><link>https://platzimaster.github.io/2020/0410-profundicemos-en-la-recursion/</link><guid isPermaLink="false">https://platzimaster.github.io/2020/0410-profundicemos-en-la-recursion/</guid><pubDate>Fri, 10 Apr 2020 03:17:39 GMT</pubDate><content:encoded>&lt;p&gt;&lt;em&gt;Tercera parte - nivel intermedio&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;En el post anterior vimos como sumar, multiplicar y exponenciar de forma recursiva, vamos a seguir con más ejemplos.&lt;/p&gt;
+&lt;h2&gt;Más ejemplos&lt;/h2&gt;
+&lt;p&gt;Recordemos el factorial. Podemos definirlo de maner recursiva como:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;0! = 1&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;s(n)! = s(n) * n!&lt;/code&gt;.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;En ocasiones, para calcular el siguiente necesitamos usar dos anteriores, por ejemplo en la serie de fibonacci:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;fibonacci(1) = 1&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;fibonacci(2) = 1&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;fibonacci(s(s(n)))  = fibonacci(s(n)) + fibonacci(n)&lt;/code&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;El código de estas dos ejemplos corresponde a los challenge-javascript-03 y challenge-javascript-04.&lt;/p&gt;
+&lt;p&gt;Pero vamos a ver un caso de uso más abstracto.&lt;/p&gt;
+&lt;h2&gt;Divide y vencerás&lt;/h2&gt;
+&lt;p&gt;El término divide y vencerás es un paradigma de diseño de algoritmos que consiste a grandes rasgos en dividir el problema en dos o más problemas menores que se pueden solucionar de manera sencilla y después juntar las respuestas para obtener la respuesta final.&lt;/p&gt;
+&lt;p&gt;¿Y cómo se relaciona con la recursividad?&lt;/p&gt;
+&lt;p&gt;Bueno, pues los problemas chiquitos que sabemos resolver fácilmente son nuestra base, y los problemas mayores se pueden resolver sabiendo los problemas chiquitos, la definición recursiva.&lt;/p&gt;
+&lt;h2&gt;Ordenación recursiva&lt;/h2&gt;
+&lt;p&gt;Analicemos el problema de ordenar números. Supongamos que tenemos un arreglo desordenado de números, por ejemplo &lt;code class=&quot;language-text&quot;&gt;[6, 5, 3, 1, 8, 7, 2, 4]&lt;/code&gt;, y queremos ordenarlo de menor a mayor. Sabemos comparar dos números, y uno sólo también. Pues tratemos de reducir este problema hasta el que ya sabemos resolver.&lt;/p&gt;
+&lt;p&gt;Podemos partir el problema en 2, &lt;code class=&quot;language-text&quot;&gt;[6, 5, 3, 1]&lt;/code&gt; y &lt;code class=&quot;language-text&quot;&gt;[ 8, 7, 2, 4]&lt;/code&gt;. Todavía no sabemos cómo ordenar estos nuevos problemas, algo parecido a cuando analizamos la definición recursiva del factorial. Entonces dividimos el problema nuevamente.&lt;/p&gt;
+&lt;p&gt;Dividimos cada problema en 2, entonces tenemos los siguientes arreglos: &lt;code class=&quot;language-text&quot;&gt;[6, 5]&lt;/code&gt;, &lt;code class=&quot;language-text&quot;&gt;[3,1]&lt;/code&gt;, &lt;code class=&quot;language-text&quot;&gt;[8,7]&lt;/code&gt; y &lt;code class=&quot;language-text&quot;&gt;[2, 4]&lt;/code&gt;. Estos problemas ya los sabemos resolver. Si ordenamos los 4 arreglos tenemos &lt;code class=&quot;language-text&quot;&gt;[5,6]&lt;/code&gt; , &lt;code class=&quot;language-text&quot;&gt;[1, 2]&lt;/code&gt;, &lt;code class=&quot;language-text&quot;&gt;[7, 8]&lt;/code&gt;, &lt;code class=&quot;language-text&quot;&gt;[2, 4]&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;Ya los tenemos ordenados por pares, ahora veamos otro problema, como unir estas respuestas para ordenar nuestro problema mayor.&lt;/p&gt;
+&lt;p&gt;Este algoritmo se llama mergesort porque primero divide el problema en dos y cuando tenga la respuesta, las une (merge) de forma ordenada (sort).&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://upload.wikimedia.org/wikipedia/commons/c/cc/Merge-sort-example-300px.gif&quot; alt=&quot;Mergesort&quot;&gt;&lt;/p&gt;
+&lt;p&gt;Una aproximación al código sería la siguiente:&lt;/p&gt;
+&lt;p&gt;JavaScript:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;python&quot;&gt;&lt;pre class=&quot;language-python&quot;&gt;&lt;code class=&quot;language-python&quot;&gt;const mergesort &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;array&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;token keyword&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;array&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;length &lt;span class=&quot;token operator&quot;&gt;&amp;lt;=&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; array&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;else&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+    const &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt; array_left&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; array_right &lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; dividir&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;array&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+    array_left &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; mergesort&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;array_left&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+    array_right &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; mergesort&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;array_right&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; merge&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;array_left&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; array_right&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Python:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;python&quot;&gt;&lt;pre class=&quot;language-python&quot;&gt;&lt;code class=&quot;language-python&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;mergesort&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;array&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+  &lt;span class=&quot;token keyword&quot;&gt;if&lt;/span&gt; array&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;length &lt;span class=&quot;token operator&quot;&gt;&amp;lt;=&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+    &lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; array
+  &lt;span class=&quot;token keyword&quot;&gt;else&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+    array_left&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; array_right &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; dividir&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;array&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+    array_left &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; mergesort&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;array_left&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+    array_right &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; mergesort&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;array_right&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; merge&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;array_left&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; array_right&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;La recursividad se vé al llamarse a sí misma para ordenar el arreglo derecho y el izquierdo. Notemos que el caso base corresponde cuando tenemos un único elemento en el array, en lugar de dos. Esto es porque en nuestro ejemplo teníamos un número par de elementos en nuestro array, por lo que al dividir a la mitad, nos quedaron siempre parejas.&lt;/p&gt;
+&lt;p&gt;Por último, la función &lt;code class=&quot;language-text&quot;&gt;merge&lt;/code&gt; junta los dos arreglos ordenados en un solo arreglo ya ordenado.&lt;/p&gt;
+&lt;p&gt;Como ejercicio completa la función &lt;code class=&quot;language-text&quot;&gt;mergesort&lt;/code&gt;. Mándame un &lt;a href=&quot;https://twitter.com/hyfi06&quot;&gt;tweet&lt;/a&gt; con código y el resultado, o tus dudas, los estaré esperando ;)&lt;/p&gt;
+&lt;h2&gt;Contacto&lt;/h2&gt;
+&lt;p&gt;Si quieres hablar más sobre este tema contáctame en:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Slack: @Héctor (hyfi06)&lt;/li&gt;
+&lt;li&gt;Twitter: &lt;a href=&quot;https://twitter.com/hyfi06&quot;&gt;@hyfi06&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Github: &lt;a href=&quot;https://github.com/hyfi06&quot;&gt;hyfi06&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Platzi: &lt;a href=&quot;https://platzi.com/@hyfi06/&quot;&gt;@hyfi06&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[La base de la Recursión]]></title><description><![CDATA[Segunda parte - nivel intermedio Si vienes de alguna carrera afín a las matemáticas e ingeniería, seguramente habrás oído hablar de la…]]></description><link>https://platzimaster.github.io/2020/0407-la-base-de-la-recursion/</link><guid isPermaLink="false">https://platzimaster.github.io/2020/0407-la-base-de-la-recursion/</guid><pubDate>Tue, 07 Apr 2020 00:56:44 GMT</pubDate><content:encoded>&lt;p&gt;&lt;em&gt;Segunda parte - nivel intermedio&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;Si vienes de alguna carrera afín a las matemáticas e ingeniería, seguramente habrás oído hablar de la inducción matemática. ¡Espera, no cierres el post todavía! Ya se que puede traer malos recuerdos, pero, por el momento, no vamos a hacer ninguna inducción matemática.&lt;/p&gt;
 &lt;p&gt;La inducción matemáticas es un método (axioma) para demostrar propiedades de los números naturales. Posiblemente recordarás haber “demostrado” alguna cosa con sucesiones o series. Pero como dije, no va de esto este post. Sólo quiero rescatar los pasos que usa la inducción.&lt;/p&gt;
-&lt;p&gt;Primero vemos que la propiedad se cumple para &lt;code class=&quot;language-text&quot;&gt;0&lt;/code&gt; (ó &lt;code class=&quot;language-text&quot;&gt;1&lt;/code&gt;, ó otro número, depende de lo que convenga).
-Suponemos que se cumple para un &lt;code class=&quot;language-text&quot;&gt;n&lt;/code&gt;.
-Demostramos que se cumple para &lt;code class=&quot;language-text&quot;&gt;n + 1&lt;/code&gt;.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Primero vemos que la propiedad se cumple para &lt;code class=&quot;language-text&quot;&gt;0&lt;/code&gt; (ó &lt;code class=&quot;language-text&quot;&gt;1&lt;/code&gt;, ó otro número, depende de lo que convenga).&lt;/li&gt;
+&lt;li&gt;Suponemos que se cumple para un &lt;code class=&quot;language-text&quot;&gt;n&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;Demostramos que se cumple para &lt;code class=&quot;language-text&quot;&gt;n + 1&lt;/code&gt;.&lt;/li&gt;
+&lt;/ol&gt;
 &lt;p&gt;No importa si no te hace sentido eso, si quieres saber más puedes contactarme en los medios que aparecen al final de este post.&lt;/p&gt;
 &lt;p&gt;La recursión, como se introdujo en el &lt;a href=&quot;https://platzimaster.github.io/2020/0404-introduccion-a-la-recursion/&quot;&gt;post anterior de esta saga&lt;/a&gt;, es algo que en su definición aparece lo que se está definiendo. Esto no lleva a contradicción cuando definimos un caso base antes del caso recursivo. Y esto es gracias a que la recursión se fundamenta en la inducción matemática.&lt;/p&gt;
 &lt;p&gt;La inducción matemática parte de un caso base, que la propiedad se cumpla para el &lt;code class=&quot;language-text&quot;&gt;0&lt;/code&gt;; y un paso inductivo, suponer para &lt;code class=&quot;language-text&quot;&gt;n&lt;/code&gt; y demostrar que se cumple para &lt;code class=&quot;language-text&quot;&gt;n + 1&lt;/code&gt;. La recursión hace esto mismo, primero de define qué pasa con el &lt;code class=&quot;language-text&quot;&gt;0&lt;/code&gt;, o otro número que nos sirva de base; y luego definimos de manera recursiva el paso &lt;code class=&quot;language-text&quot;&gt;n + 1&lt;/code&gt; usando que tenemos el paso &lt;code class=&quot;language-text&quot;&gt;n&lt;/code&gt;.&lt;/p&gt;
@@ -76,8 +136,10 @@ Demostramos que se cumple para &lt;code class=&quot;language-text&quot;&gt;n + 1
 &lt;p&gt;Ya pasamos lo más difícil: decir las cosas como son. Ahora hay que comprenderlo.&lt;/p&gt;
 &lt;p&gt;Vamos a definir las tablas de la suma de manera recursiva. Fácil, ¿no? Sólo requerimos saber cual es el número siguiente, lo denotaremos como &lt;code class=&quot;language-text&quot;&gt;s(n)&lt;/code&gt;, el sucesor de &lt;code class=&quot;language-text&quot;&gt;n&lt;/code&gt;.&lt;/p&gt;
 &lt;p&gt;La tabla de sumar de k se define como sigue:&lt;/p&gt;
-&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;k + (0) = k&lt;/code&gt;
-&lt;code class=&quot;language-text&quot;&gt;k + (s(n)) = s(k + (n))&lt;/code&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;k + (0) = k&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;k + (s(n)) = s(k + (n))&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
 &lt;p&gt;¿Cuánto es &lt;code class=&quot;language-text&quot;&gt;2 + 2&lt;/code&gt;? ¡Pues vamos a programarlo!&lt;/p&gt;
 &lt;p&gt;JavaScript:&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;js&quot;&gt;&lt;pre class=&quot;language-js&quot;&gt;&lt;code class=&quot;language-js&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;token function-variable function&quot;&gt;sumar2&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token parameter&quot;&gt;num&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&gt;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
@@ -94,21 +156,25 @@ Demostramos que se cumple para &lt;code class=&quot;language-text&quot;&gt;n + 1
   &lt;span class=&quot;token keyword&quot;&gt;else&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
     &lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; sumar2&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;num &lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;Si llamas la función &lt;code class=&quot;language-text&quot;&gt;sumar2(2)&lt;/code&gt; verás que te sale &lt;code class=&quot;language-text&quot;&gt;16&lt;/code&gt;. ¿Por qué? ¿No te salió &lt;code class=&quot;language-text&quot;&gt;16&lt;/code&gt;? ¿Te salio &lt;code class=&quot;language-text&quot;&gt;4&lt;/code&gt;? A mi también me salió &lt;code class=&quot;language-text&quot;&gt;4&lt;/code&gt;, pero quería asegurarme que lo hicieras.&lt;/p&gt;
-&lt;p&gt;Veamos que hace la computadora:
-Llamamos &lt;code class=&quot;language-text&quot;&gt;sumar2(2)&lt;/code&gt;.
-Como &lt;code class=&quot;language-text&quot;&gt;2 != 0&lt;/code&gt;, regresamos &lt;code class=&quot;language-text&quot;&gt;sumar2(1) + 1&lt;/code&gt;. Pero para resolver la operación necesitamos saber cuanto vale &lt;code class=&quot;language-text&quot;&gt;sumar2(1)&lt;/code&gt;.
-Llamamos &lt;code class=&quot;language-text&quot;&gt;sumar2(1)&lt;/code&gt;.
-Como &lt;code class=&quot;language-text&quot;&gt;1 != 0&lt;/code&gt;, regresamos &lt;code class=&quot;language-text&quot;&gt;sumar(0) + 1&lt;/code&gt;. Pero para resolver la operación necesitamos saber cuánto vale &lt;code class=&quot;language-text&quot;&gt;sumar2(0)&lt;/code&gt;.
-Llamamos &lt;code class=&quot;language-text&quot;&gt;sumar2(0)&lt;/code&gt;.
-Como &lt;code class=&quot;language-text&quot;&gt;0 = 0&lt;/code&gt; regresamos &lt;code class=&quot;language-text&quot;&gt;2&lt;/code&gt;.
-En el paso 4 ya podemos opera &lt;code class=&quot;language-text&quot;&gt;sumar2(0) + 1 = 2 + 1 = 3&lt;/code&gt;, regresamos &lt;code class=&quot;language-text&quot;&gt;3&lt;/code&gt;.
-En el paso 2 ya podemos operar &lt;code class=&quot;language-text&quot;&gt;sumar2(1) +1 = 3 + 1 = 4&lt;/code&gt;, y regresamos &lt;code class=&quot;language-text&quot;&gt;4&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;Veamos que hace la computadora:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Llamamos &lt;code class=&quot;language-text&quot;&gt;sumar2(2)&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;Como &lt;code class=&quot;language-text&quot;&gt;2 != 0&lt;/code&gt;, regresamos &lt;code class=&quot;language-text&quot;&gt;sumar2(1) + 1&lt;/code&gt;. Pero para resolver la operación necesitamos saber cuanto vale &lt;code class=&quot;language-text&quot;&gt;sumar2(1)&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;Llamamos &lt;code class=&quot;language-text&quot;&gt;sumar2(1)&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;Como &lt;code class=&quot;language-text&quot;&gt;1 != 0&lt;/code&gt;, regresamos &lt;code class=&quot;language-text&quot;&gt;sumar(0) + 1&lt;/code&gt;. Pero para resolver la operación necesitamos saber cuánto vale &lt;code class=&quot;language-text&quot;&gt;sumar2(0)&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;Llamamos &lt;code class=&quot;language-text&quot;&gt;sumar2(0)&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;Como &lt;code class=&quot;language-text&quot;&gt;0 = 0&lt;/code&gt; regresamos &lt;code class=&quot;language-text&quot;&gt;2&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;En el paso 4 ya podemos opera &lt;code class=&quot;language-text&quot;&gt;sumar2(0) + 1 = 2 + 1 = 3&lt;/code&gt;, regresamos &lt;code class=&quot;language-text&quot;&gt;3&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;En el paso 2 ya podemos operar &lt;code class=&quot;language-text&quot;&gt;sumar2(1) +1 = 3 + 1 = 4&lt;/code&gt;, y regresamos &lt;code class=&quot;language-text&quot;&gt;4&lt;/code&gt;.&lt;/li&gt;
+&lt;/ol&gt;
 &lt;p&gt;&lt;img src=&quot;https://images.emojiterra.com/google/android-pie/512px/1f92f.png&quot; alt=&quot;nuclear head&quot;&gt;&lt;/p&gt;
 &lt;p&gt;Este ejemplo es muy sencillo, como dije solo se requiere saber cual es el número siguiente. Aquí nos aprovechamos de que el número siguientes es &lt;code class=&quot;language-text&quot;&gt;n+1&lt;/code&gt;.&lt;/p&gt;
 &lt;p&gt;Vamos a ver otros ejemplos. Pero si entendiste este, los demás son similares.&lt;/p&gt;
 &lt;p&gt;Ya que sabemos sumar, vamos a multiplicar de manera recursiva.&lt;/p&gt;
-&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;k * (0) = 0&lt;/code&gt;
-&lt;code class=&quot;language-text&quot;&gt;k * (s(n)) = k * n + k&lt;/code&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;k * (0) = 0&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;k * (s(n)) = k * n + k&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
 &lt;p&gt;¿Cuánto es &lt;code class=&quot;language-text&quot;&gt;7 * 6&lt;/code&gt;? Pues si no lo recuerdas seguro sabes cuanto es &lt;code class=&quot;language-text&quot;&gt;7 * 5&lt;/code&gt; y sólo sumas &lt;code class=&quot;language-text&quot;&gt;7&lt;/code&gt; más. ¿No aplicaste este truco toda vida? Eso es recursividad. Lo has sabido hacer, los has entendido toda la vida, pero no sabías que se llamaba así.&lt;/p&gt;
 &lt;p&gt;Vamos a programar la tabla del &lt;code class=&quot;language-text&quot;&gt;7&lt;/code&gt;:&lt;/p&gt;
 &lt;p&gt;JavaScript:&lt;/p&gt;
@@ -117,8 +183,10 @@ En el paso 2 ya podemos operar &lt;code class=&quot;language-text&quot;&gt;sumar
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;python&quot;&gt;&lt;pre class=&quot;language-python&quot;&gt;&lt;code class=&quot;language-python&quot;&gt;multiplicar7 &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;lambda&lt;/span&gt; num&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;if&lt;/span&gt; num &lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;else&lt;/span&gt;  multiplicar7&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;num &lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;7&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;Como ejercicio repite los pasos que hace la computadora, como hice con la suma, cuando llamas &lt;code class=&quot;language-text&quot;&gt;multiplicar7(3)&lt;/code&gt;.&lt;/p&gt;
 &lt;p&gt;Ya sabemos multiplicar, ¿y si ahora exponenciamos?&lt;/p&gt;
-&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;k ^ 0 = 1&lt;/code&gt;
-&lt;code class=&quot;language-text&quot;&gt;k ^ s(n) = (k ^ n) * k&lt;/code&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;k ^ 0 = 1&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;k ^ s(n) = (k ^ n) * k&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
 &lt;p&gt;Como ejercicio programa la función &lt;code class=&quot;language-text&quot;&gt;exp2&lt;/code&gt; y calcula &lt;code class=&quot;language-text&quot;&gt;exp2(10)&lt;/code&gt;. Mándame un &lt;a href=&quot;https://twitter.com/hyfi06&quot;&gt;tweet&lt;/a&gt; con tu código y el resultado, lo estaré esperando ;)&lt;/p&gt;
 &lt;h2&gt;Contacto&lt;/h2&gt;
 &lt;p&gt;Si quieres hablar más sobre este tema contáctame en:&lt;/p&gt;
