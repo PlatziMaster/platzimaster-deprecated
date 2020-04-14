@@ -2,6 +2,7 @@ import React from "react";
 import gravatar from '../utils/gravatar';
 import '../styles/templates/blog-post.css';
 import { Link, graphql } from "gatsby";
+import readingTime from "../utils/readingTime";
 
 import Layout from "../components/layout";
 import SEO from "../components/seo";
@@ -12,6 +13,7 @@ const BlogPostTemplate = ({ data, pageContext, location }) => {
   const siteTitle = data.site.siteMetadata.title;
   const { previous, next } = pageContext;
   const { title, date, description, author, email, platziUser } = post.frontmatter;
+  const timeToRead = readingTime(post.html);
 
   return (
     <Layout location={location} title={siteTitle}>
@@ -37,10 +39,11 @@ const BlogPostTemplate = ({ data, pageContext, location }) => {
                   {author}
                 </a>
               </h2>
-            </div>
-            <div className="blogpost__date">
               <p>
                 {date}
+              </p>
+              <p>
+              { timeToRead }
               </p>
             </div>
           </div>
@@ -100,7 +103,7 @@ export const pageQuery = graphql`
       html
       frontmatter {
         title
-        date(formatString: "MMMM DD, YYYY")
+        date (formatString: "DD [de] MMMM, YYYY", locale: "es")
         description
         author
         email

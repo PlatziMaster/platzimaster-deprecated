@@ -45,7 +45,7 @@ const BlogIndex = ({ data, location }) => {
 
 export default BlogIndex
 
-export const pageQuery = graphql`
+export const pageQuery = graphql `
   query {
     site {
       siteMetadata {
@@ -60,7 +60,7 @@ export const pageQuery = graphql`
             slug
           }
           frontmatter {
-            date(formatString: "MMMM DD, YYYY")
+            date (formatString: "DD [de] MMMM, YYYY", locale: "es")
             title
             description
             author

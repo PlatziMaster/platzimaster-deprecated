@@ -24,7 +24,19 @@
   text-decoration: none;
   box-shadow: none;
 }
-.blogpost__date p {
-  font-size: 12px;
-  margin: 0;
+.blogpost__author p, h2 {
+  padding: 0;
+  font-size: 16px;
+  margin: 0 0 0 .5em
+
+}
+@media (max-width: 600px) {
+  .blogpost__author {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .blogpost__author img {
+    margin-bottom: .3em;
+    margin-left: .7em;
+  }
 }
