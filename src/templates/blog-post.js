@@ -5,6 +5,7 @@ import { Link, graphql } from "gatsby";
 
 import Layout from "../components/layout";
 import SEO from "../components/seo";
+import ShareButton from "../components/shareButton";
 import { rhythm } from "../utils/typography";
 
 const BlogPostTemplate = ({ data, pageContext, location }) => {
@@ -54,7 +55,11 @@ const BlogPostTemplate = ({ data, pageContext, location }) => {
         <footer>
         </footer>
       </article>
-
+      <ShareButton
+        title={title}
+        description={description}
+        url={location.href}
+      />
       <nav>
         <ul
           style={{
