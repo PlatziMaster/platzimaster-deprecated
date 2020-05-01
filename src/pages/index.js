@@ -1,19 +1,28 @@
-import React from "react"
-import { Link, graphql } from "gatsby"
+import React, { useState } from 'react';
+import { Link, graphql } from 'gatsby';
 
-import Layout from "../components/layout"
-import SEO from "../components/seo"
-import { rhythm } from "../utils/typography"
+import Layout from '../components/layout';
+import SEO from '../components/seo';
+import NoPostFound from '../components/no-post-found';
+import { rhythm } from '../utils/typography';
 
 const BlogIndex = ({ data, location }) => {
-  const siteTitle = data.site.siteMetadata.title
-  const posts = data.allMarkdownRemark.edges
+  const siteTitle = data.site.siteMetadata.title;
+  const posts = data.allMarkdownRemark.edges;
+  const [filteredPosts, setFilteredPosts] = useState(posts);
+  const noPostsFound = filteredPosts.length === 0;
 
   return (
-    <Layout location={location} title={siteTitle}>
-      <SEO title="All posts" />
-      {posts.map(({ node }) => {
-        const title = node.frontmatter.title || node.fields.slug
+    <Layout
+      location={location}
+      title={siteTitle}
+      posts={posts}
+      filterHandler={setFilteredPosts}
+    >
+      <SEO title='All posts' />
+      {noPostsFound && <NoPostFound />}
+      {filteredPosts.map(({ node }) => {
+        const title = node.frontmatter.title || node.fields.slug;
         return (
           <article key={node.fields.slug}>
             <header>
@@ -23,11 +32,17 @@ const BlogIndex = ({ data, location }) => {
                   marginBottom: rhythm(1 / 4),
                 }}
               >
-                <Link style={{ boxShadow: `none` }} to={node.fields.slug}>
+                <Link style={{ boxShadow: 'none' }} to={node.fields.slug}>
                   {title}
                 </Link>
               </h3>
-              <small>{node.frontmatter.author} - {node.frontmatter.date}</small>
+              <small>
+                {node.frontmatter.author}
+                {' '}
+                -
+                {' '}
+                {node.frontmatter.date}
+              </small>
             </header>
             <section>
               <p
@@ -37,13 +52,13 @@ const BlogIndex = ({ data, location }) => {
               />
             </section>
           </article>
-        )
+        );
       })}
     </Layout>
-  )
-}
+  );
+};
 
-export default BlogIndex
+export default BlogIndex;
 
 export const pageQuery = graphql`
   query {
@@ -69,4 +84,4 @@ export const pageQuery = graphql`
       }
     }
   }
-`
+`;

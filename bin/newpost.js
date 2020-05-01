@@ -2,10 +2,9 @@ const readline = require('readline');
 const exec = require('child_process').execSync;
 const fs = require('fs');
 
-
 const rl = readline.Interface({
   input: process.stdin,
-  output: process.stdout
+  output: process.stdout,
 });
 
 console.info('Welcome to command line interface to creating new post!\n');
@@ -24,7 +23,6 @@ rl.question('Post title: ', answer1 => {
     });
   });
 });
-
 
 rl.on('close', () => {
   const now = new Date();
@@ -50,8 +48,13 @@ rl.on('close', () => {
   }
 
   try {
+<<<<<<< HEAD
+    fs.statSync(`content/${DigitsInDate[0]}${DigitsInDate[1]}/${postData.fileName}`);
+    console.error('Error!!: The post has already been created');
+=======
     fs.statSync(`content/${DigitsInDate[0]}${DigitsInDate[1]}/${postData.fileName}`)
     console.error('\nError!: The post has already been created');
+>>>>>>> bae41bae3f28f8b39a052c7d1fbee5dca2903953
   } catch (err) {
     fs.writeFileSync(`content/${DigitsInDate[0]}${DigitsInDate[1]}/${postData.fileName}`, `---
 title: '${postData.title}'
@@ -64,6 +67,8 @@ platziUser: '${postData.platziUser}'
     console.info(`\nSuccess!!: content/${DigitsInDate[0]}${DigitsInDate[1]}/${postData.fileName} was created`);
   }
 });
+<<<<<<< HEAD
+=======
 
 rl.on('SIGINT', () => rl.pause() );
 
@@ -92,3 +97,4 @@ const textToSlug = text => {
     .toLowerCase()
     .substr(0, 39));
 }
+>>>>>>> bae41bae3f28f8b39a052c7d1fbee5dca2903953

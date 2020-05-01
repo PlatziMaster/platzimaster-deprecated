@@ -1,11 +1,11 @@
-import React from "react";
+import React from 'react';
+import { Link, graphql } from 'gatsby';
+import Layout from '../components/layout';
+import SEO from '../components/seo';
+import { rhythm } from '../utils/typography';
 import gravatar from '../utils/gravatar';
-import '../styles/templates/blog-post.css';
-import { Link, graphql } from "gatsby";
 
-import Layout from "../components/layout";
-import SEO from "../components/seo";
-import { rhythm } from "../utils/typography";
+import '../styles/templates/blog-post.css';
 
 const BlogPostTemplate = ({ data, pageContext, location }) => {
   const post = data.markdownRemark;
@@ -29,16 +29,16 @@ const BlogPostTemplate = ({ data, pageContext, location }) => {
           >
             {title}
           </h2>
-          <div className="blogpost__info">
-            <div className="blogpost__author">
+          <div className='blogpost__info'>
+            <div className='blogpost__author'>
               <img src={gravatar(email)} alt={author} />
               <h2>
-                <a href={`https://platzi.com/@${platziUser}`} target="_blank" rel="noopener noreferrer">
+                <a href={`https://platzi.com/@${platziUser}`} target='_blank' rel='noopener noreferrer'>
                   {author}
                 </a>
               </h2>
             </div>
-            <div className="blogpost__date">
+            <div className='blogpost__date'>
               <p>
                 {date}
               </p>
@@ -51,31 +51,34 @@ const BlogPostTemplate = ({ data, pageContext, location }) => {
             marginBottom: rhythm(1),
           }}
         />
-        <footer>
-        </footer>
+        <footer />
       </article>
 
       <nav>
         <ul
           style={{
-            display: `flex`,
-            flexWrap: `wrap`,
-            justifyContent: `space-between`,
-            listStyle: `none`,
+            display: 'flex',
+            flexWrap: 'wrap',
+            justifyContent: 'space-between',
+            listStyle: 'none',
             padding: 0,
           }}
         >
           <li>
             {previous && (
-              <Link to={previous.fields.slug} rel="prev">
-                ← {previous.frontmatter.title}
+              <Link to={previous.fields.slug} rel='prev'>
+                ←
+                {' '}
+                {previous.frontmatter.title}
               </Link>
             )}
           </li>
           <li>
             {next && (
-              <Link to={next.fields.slug} rel="next">
-                {next.frontmatter.title} →
+              <Link to={next.fields.slug} rel='next'>
+                {next.frontmatter.title}
+                {' '}
+                →
               </Link>
             )}
           </li>

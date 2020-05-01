@@ -1,0 +1,11 @@
+.no-post-found__img-container {
+    background: #333434;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    margin: 3em auto;
+}
+
+.no-post-found__text {
+    text-align: center;
+}
