@@ -263,7 +263,7 @@ Es hora de sacar del horno la solución al problema:
 
 Un pequeño seguimiento rápido a un problema de ejemplo:
 
-![Seguimiento](https://i.imgur.com/vqhVCr8.gif)
+![Seguimiento](https://i.imgur.com/BNxgVsa.gif)
 
 ¡Y ya está resuelto!
 
