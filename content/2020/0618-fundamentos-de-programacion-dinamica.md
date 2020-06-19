@@ -292,7 +292,7 @@ Otros problemas clásicos incluyen:
 - El problema del cambio (making change)
 - La subsecuencia común más larga
 - La mochila (o knapsack en inglés) - [Explicación por Joe Del Rocco (Cacti Council)](https://www.youtube.com/watch?v=7SGzWtEUUL8)
-- El problema del consumo de calorías (una versión modificada del problema de la mochila) - [Aquí una pista de cómo abordarlo](https://www.linkedin.com/pulse/explain-example-dynamic-programming-michelle-xie/)
+- El problema del consumo de calorías (una versión modificada del problema de la mochila) - [Aquí una pista de cómo abordarlo por Michelle Xie](https://www.linkedin.com/pulse/explain-example-dynamic-programming-michelle-xie/)
 - Recorte de varillas para obtener el precio óptimo (rod cutting)
 - El vendedor viajero (travelling salesman)
 - Y muchos más
