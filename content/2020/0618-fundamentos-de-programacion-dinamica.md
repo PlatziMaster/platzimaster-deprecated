@@ -176,11 +176,11 @@ Así que para ambos esquemas podemos notar un comportamiento lineal, es decir, u
 
 Ahora veamos cómo podemos utilizar el poder de la programación dinámica en un problema de optimización del mundo real. El problema en este caso es la optimización de tiempo en líneas de ensamblaje industriales. Dice así:
 
-    "Se tienen dos líneas de ensamblaje de vehículos, cada una con estaciones en que se añaden o ajustan partes del producto final.
+*"Se tienen dos líneas de ensamblaje de vehículos, cada una con estaciones en que se añaden o ajustan partes del producto final.*
 
-    En cada estación el proceso se demora un determinado tiempo, y hay una demora extra si se quiere cambiar de línea de ensamblaje (no se asume el tiempo entre estaciones de la misma línea). Además, el ingreso a las líneas tiene un tiempo distinto, al igual que la salida a la entrega del producto. 
+*En cada estación el proceso se demora un determinado tiempo, y hay una demora extra si se quiere cambiar de línea de ensamblaje (no se asume el tiempo entre estaciones de la misma línea). Además, el ingreso a las líneas tiene un tiempo distinto, al igual que la salida a la entrega del producto.*
 
-    Se requiere de un algoritmo que ensamble un vehículo empleando el menor tiempo posible, y con una complejidad de tiempo de ejecución óptima."
+*Se requiere de un algoritmo que ensamble un vehículo empleando el menor tiempo posible, y con una complejidad de tiempo de ejecución óptima."*
 
 Para resolver este problema nos vamos a valer de la propiedad de **Subestructura Óptima** que ya hemos mencionado anteriormente. Te la recuerdo: **la solución óptima de un problema va a estar dada a partir de la decisión de optimización entre las soluciones a subproblemas, que también serán óptimas**. 
 
