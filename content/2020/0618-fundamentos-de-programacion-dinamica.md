@@ -2,7 +2,7 @@
 title: 'Fundamentos de Programación Dinámica'
 date: '2020-06-18T17:23:03.605Z'
 description: 'Una vista introductoria a la técnica de diseño de algoritmos que es la programación dinámica'
-author: 'J. Alvarez'
+author: 'Juan Camilo Alvarez Jurado'
 email: 'jcalvarezj@gmail.com'
 platziUser: 'jcalvarezj'
 ---
