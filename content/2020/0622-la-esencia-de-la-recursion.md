@@ -27,7 +27,7 @@ Entonces, lo que quiero resaltar de la recursión es que es algo con lo que pode
 
 ## Fractales
 
-Son quizás el ejemplo más clásico en cuanto a recursión de estructura.
+Son quizás el ejemplo más clásico en cuanto a **recursión de estructura**.
 
 Un fractal es un sistema geométrico compuesto por sistemas geométricos de menor nivel que comparten y replican una estructura similar.
 
@@ -38,17 +38,17 @@ Hay centenares de tipos de fractales definidos en varias dimensiones, reglas, pa
 
 Es un fractal muy simple: Círculo grande, que tiene círculos más pequeños a la izquierda y la derecha, que tienen círculos más pequeños a la izquierda y la derecha, que tienen [...] Ok, ya paro... El asunto es que debe parar en algún punto, y eso es el caso base, que aquí corresponde a una circunferencia simple.
 
-Podemos generalizarlo como el fractal C(R): círculo grande que tiene dos fractales C(R/2) en su interior, para un radio R.
+Podemos generalizarlo como el fractal *C(R): círculo grande que tiene dos fractales C(R/2) en su interior, para un radio R (a la izquierda y la derecha del centro)*.
 
-Notemos cómo se repite la regla de la estructura en cada nivel de complejidad hasta llegar al caso base:
+Notemos cómo se repite la regla de la estructura (el problema recursivo) en cada nivel de complejidad hasta llegar al caso base:
 
 ![Círculos binarios](https://i.imgur.com/ttHbWXb.png)
 
 ### Árbol binario
 
-Es un fractal clásico y simple donde la regla es "estirar y ramificar".
+Es un fractal clásico y simple donde la regla es *"estirar y ramificar"*.
 
-El caso base será una línea, y la definición recursiva es la regla que acabo de mencionar arriba:
+El caso base será una línea, y la definición recursiva es la regla que acabo de mencionar arriba, que funciona así:
 
     Árbol nivel N:
         "Estirar": Dibujar una línea con un ángulo de referencia
@@ -114,11 +114,11 @@ Para ver una explicación más detallada, revisa mi post ["Fundamentos de Progra
 
 ## Conclusiones y recursos
 
-Hemos visto que hacer recursión es más que solo llamar una función a sí misma, es pensar en cómo se replica la esencia de cualquier fenómeno o sistema en sus niveles de complejidad inferiores (el caso de las funciones siendo una particularidad de ésto).
+Hemos visto que hacer recursión es más que solo llamar una función a sí misma, es pensar en **cómo se replica la esencia de cualquier fenómeno o sistema en sus niveles de complejidad inferiores** (el caso de las funciones siendo una particularidad de ésto).
 
-Aprender a dominar la recursión en formas tanto conceptual como algorítmica es clave para abordar con mucha más facilidad cualquier disección o creación de fenómenos o sistemas complejos que se puedan definir de manera recursiva en funcionalidad o en estructura.
+Aprender a dominar la recursión en formas tanto conceptual como algorítmica es clave para abordar con mucha más facilidad cualquier disección o creación de fenómenos o sistemas complejos, que se puedan definir de manera recursiva en funcionalidad o en estructura.
 
-A pesar de que la recursión simplifica la solución de muchos tipos de problema de una forma elegante, hay que recordar que la pila de llamados de funciones en memoria es limitada, así que hay que evaluar muy bien si la recursión es la mejor forma de 
+A pesar de que la recursión simplifica la solución de muchos tipos de problema de una forma elegante, hay que recordar que la pila de llamados de funciones en memoria es limitada, así que hay que evaluar muy bien si la recursión es la mejor forma de establecer dicha solución.
 
 ¿Te ha picado la curiosidad? Aquí te tengo algunas referencias adicionales para que explores un poco más:
 
