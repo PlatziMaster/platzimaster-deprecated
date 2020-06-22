@@ -18,6 +18,7 @@ Vamos a explorar a continuación algunos ejemplos de fenómenos recursivos que i
 Un fenómeno o sistema recursivo es **aquel que está definido en términos de sí mismo** (o mejor, **que está definido en términos de elementos de una estructura o naturaleza muy similar**).
 
 ![Meme](https://www.smbc-comics.com/comics/1562409923-20190706.png)
+
 <small>*Fuente: https://www.smbc-comics.com/comic/recursion*</small>
 
 En ciencias de la computación recordaremos mucho problemas como el cálculo del factorial, la sucesión de Fibonacci, búsqueda y ordenamiento eficientes, etcétera, pero estamos cayendo en mecanizar demasiado el intentar solo ver a la recursión como "una forma rara de iterar en un nuevo nivel", y la recursión va mucho más allá de ésto.
@@ -99,6 +100,7 @@ Ilustrado:
 Jugando un poco con la definición de la curva de Koch, sobre una base de un triángulo equilátero, lleva a la obtención del copo de nieve de Koch:
 
 ![](https://upload.wikimedia.org/wikipedia/commons/f/fd/Von_Koch_curve.gif)
+
 <small>*Cortesía de [António Miguel de Campos - Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Von_Koch_curve.gif)*</small>
 
 ## Programación Dinámica
