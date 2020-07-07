@@ -6,6 +6,7 @@ author: 'Juan Camilo Alvarez Jurado'
 email: 'jcalvarezj@gmail.com'
 platziUser: 'jcalvarezj'
 ---
+# La esencia de la recursión
 
 ¡Hola! Si estás aquí es porque quieres complementar un poco tus conocimientos respecto de la recursión para entenderla mejor. Estás en el luegar indicado para hacerlo.
 
