@@ -101,7 +101,7 @@ Es muy simple. Recordemos:
 
 1. Inicializamos la **estructura auxiliar** (en este caso un array cuyas posiciones refieren al N que estamos calculando)
 2. Definimos los **problemas triviales** (es decir, lo que ya conocemos: **F(0) = 0**, **F(1) = 1**)
-3. Iteramos **desde el primer problema no trivial hasta el problema que quieremos resolver**, calculando para cada problema su solución a partir de los problemas más pequeños
+3. Iteramos **desde el primer problema no trivial hasta el problema que queremos resolver**, calculando para cada problema su solución a partir de los problemas más pequeños
 4. Usamos la **estructura auxiliar** para sacar de ahí la solución y eso es todo.
 
 Este sería el pseudocódigo de la receta que he mencionado:
@@ -298,6 +298,8 @@ Otros problemas clásicos incluyen:
 - Y muchos más
  
 Por supuesto hay muchos más recursos al alcance de una Googleada, unos más entendibles que otros. Te animo a ir despacio, con calma y a no rendirte. En ocasiones algunos problemas, su definición, y su solución pueden parecer complicados de abstraer, y por eso te pido perseverar un poco.
+
+(**¡Hey, a propósito! ¡Dale un vistazo al [Curso de Programación Dinámica y Estocástica con Python](https://platzi.com/clases/programacion-estocastica/) de David Aroesti!** Aquí David nos presenta una pequeña introducción al tema con el ejemplo de la sucesión de Fibonacci resuelta mediante memoización)
 
 Recuerda también ayudarte mucho de forma visual con dibujos y diagramas, para que veas el problema en otros ángulos y puedas dar con alguna propiedad de éste que puedas aprovechar para resolverlo con mayor facilidad.
 
