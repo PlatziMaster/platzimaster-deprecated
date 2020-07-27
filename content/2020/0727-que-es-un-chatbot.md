@@ -26,10 +26,15 @@ Esta aplicación computacional tiene una interfaz diseñada para reconocer aquel
 ## Como funciona un chatbot
 
 Los chatbots funcionan mediante un sistema de diálogo que basa su fundamento en las nociones de la Programación Neurolingüística PNL la cual, ante un determinado texto, aplica un análisis basado en una serie de algoritmos que interpretan e identifican lo que el usuario dice, estableciendo una respuesta coherente y apropiada para cada información. 
+
 Pero hay que mencionar otros aspectos que indican de forma mas profunda como es su real funcionamiento. El primero de ellos es el proceso de entendimiento que tienen los chatbots el cual se basa en variaciones semánticas, este punto analiza de cuántas maneras diferentes los usuarios pueden formular la misma pregunta, otro punto, está asociado a los keywords que son las palabras clave que contienen la frase escrita por el usuario de la cual el chatbot hace un analisis exhaustivo para identificar de qué tipo de temática se trata y así definir los recursos que debe ofrecerle. Y por último debe analizar en que idioma esta escrito el texto del usuario con fin de poder responder en el contexto e idioma de quien escribe y solicita.
+
 Hay que tener en cuenta que los chatbot no solo tiene habilidades cognitivas aplicadas a texto escrito. También puede entender números, textos de una imagen, información en una imagen y video, identificar género y edad de un rostro, entender el nivel emocional de un texto y extraer palabras clave de un texto, lo cual potencia su aprendizaje y cada vez permite tener un nivel de asertividad más preciso.
+
 El segundo aspecto que indica como funciona un chatbot, es la forma como se comunican, el cual antes de entablar una conversación con un usuario, define la forma más eficiente guiarlo. Para eso, hay que entender el contexto de la conversación, luego ofrecerle la respuesta que necesita y eso lo logramos definiendo cuántos pasos necesitamos para guiar al usuario hacia su respuesta, qué contextos mantener vivos para que gesten el inicio de otra interacción y qué oportunidades de diálogo detectamos para seguirlo guiando a nuevas acciones que beneficien el servicio que estamos ofreciendo frente a otras necesidades que pueda tener el usuario.
+
 El tercer aspecto es de la definición de un canal donde va a interactuar el chatbot con el usuario, no es lo mismo la interacción que tiene, por ejemplo, de Facebook, de Telegram o de Slack, que un usuario de escritorio que interactúa a través de un chatbot en una web. Los canales son distintos, por lo que tendremos que identificar cómo se comportan los usuarios en nuestro canal.
+
 El cuarto y ultimo aspecto a considerar al momento de estudiar el funcionamiento de los chatbots es la forma con se entrenan, para esto el equipo que desarrollo el chatbot debe tener constante atención y definir protocolos donde puedan hacer test constantes basados en las interacciones de los usuarios, como también la incorporación de nuevos sets de datos que permitan incrementar su nivel de inteligencia y así obtener la mejor respuesta.
 Con este propósito el equipo debe hacerse los siguientes cuestionamientos:
 
