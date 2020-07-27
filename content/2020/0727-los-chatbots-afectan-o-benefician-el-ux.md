@@ -2,7 +2,7 @@
 title: '¿Los chatbots afectan o benefician el UX?'
 date: '2020-07-27T15:21:49.917Z'
 description: 'Hoy los chatbots son una gran herramienta para interactuar con nuestros clientes, pero no hay que olvidar diseñar una UX inolvidable.'
-author: 'wilantury'
+author: 'wilson Antury'
 email: 'ventas@antury.net'
 platziUser: 'wilantury'
 ---
