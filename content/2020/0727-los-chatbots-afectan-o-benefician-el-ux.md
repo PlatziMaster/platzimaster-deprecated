@@ -59,10 +59,7 @@ Diseñar una experiencia conversacional exitosa es el objetivo para entregar una
 
 ## Tips para diseñar una buena experiencia con chatbots:
 
-  
-
- <img src="https://cdn.pixabay.com/photo/2017/01/31/20/53/robot-2027195_960_720.png " width="300"/>
-
+<img src="https://cdn.pixabay.com/photo/2017/01/31/20/53/robot-2027195_960_720.png " width="300"/>
 
 1. **Antes de iniciar la construcción:** Ponerse en contacto con los clientes de nuestra organización dará una idea de la personalidad y de cómo sería una conversación de nuestro chatbot.
 
