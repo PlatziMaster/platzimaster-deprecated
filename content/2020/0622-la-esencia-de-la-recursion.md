@@ -8,7 +8,7 @@ platziUser: 'jcalvarezj'
 ---
 # La esencia de la recursión
 
-¡Hola! Si estás aquí es porque quieres complementar un poco tus conocimientos respecto de la recursión para entenderla mejor. Estás en el luegar indicado para hacerlo.
+¡Hola! Si estás aquí es porque quieres complementar un poco tus conocimientos respecto de la recursión para entenderla mejor. Estás en el lugar indicado para hacerlo.
 
 Mi objetivo con este post es el de darle un vistazo a la esencia de la recursión, ¿de qué estamos hablando exactamente cuando hablamos de recursión? ¿Qué no era solo sobre funciones que se llaman a sí mismas?
 
