@@ -108,9 +108,11 @@ Este sería el pseudocódigo de la receta que he mencionado:
 
 ![Pseudocódigo Fibonacci tabulación](https://i.imgur.com/k8HtLrS.png)
 
-Que visualmente se vería así:
+Que visualmente se vería así (no confundirse con los índices, se pueden adecuar según la solución):
 
 ![Fibonacci tabulación visualizado](https://i.imgur.com/YWicDyR.gif)
+
+<small>*(Cortesía de [Algorithm Visualizer](https://algorithm-visualizer.org/dynamic-programming/fibonacci-sequence))*</small>
 
 Implementado en JavaScript se vería así:
 
